@@ -1,224 +1,284 @@
-# Get started building your personal website
+[![](https://i.imgur.com/zNBkzj1.png)](https://xscode.com/daattali/beautiful-jekyll)
 
-### Showcase your software development skills
+# Beautiful Jekyll
 
-This repository gives you the code you'll need to kickstart a personal website that showcases your work as a software developer. And when you manage the code in a GitHub repository, it will automatically render a webpage with the owner's profile information, including a photo, bio, and repositories.
+[![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/daattali/beautiful-jekyll)
+[![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
-Your personal website is waiting to be personalized, though. It includes space to highlight your specific areas of interest in software development, like languages or industries. And it's standing by to publish your next great blog post.
+> *Created by [Dean Attali](https://deanattali.com)* &middot; [Demo](https://beautifuljekyll.com/)
 
-It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
+**Beautiful Jekyll** is a ready-to-use template to help you create a beautiful website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://beautifuljekyll.com) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) to see it in use, or see examples of websites other people created using this theme [below](#showcased-users-success-stories).
 
-## Installation
+**If you enjoy this theme, please consider [supporting me](https://github.com/sponsors/daattali) for developing and maintaining it for over 5 years.**
 
-### Fork the `github/personal-website` repo
+<p align="center">
+  <a style="display: inline-block;" href="https://github.com/sponsors/daattali">
+    <img height="40" src="https://i.imgur.com/034B8vq.png" />
+  </a>
+  &nbsp;&nbsp;
+  <a style="display: inline-block;" href="https://paypal.me/daattali">
+    <img height="40" src="https://camo.githubusercontent.com/0e9e5cac101f7093336b4589c380ab5dcfdcbab0/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f74776f6c66736f6e2f70617970616c2d6769746875622d627574746f6e40312e302e302f646973742f627574746f6e2e737667" />
+  </a>
+</p>
 
-You'll be making your own copy of the "personal website starter" repository so you have your own project to customize. A "fork" is a copy of a repository. So select "Fork" atop [the `github/personal-website` repository](https://github.com/github/personal-website).
+## Table of contents
 
-Once you've found a home for your forked repository, it's yours. You're the owner, so you're ready to publish, if you wish.
+- [Features](#features)
+- [**Build your website in 3 steps**](#build-your-website-in-3-steps)
+- [Add your own content](#add-your-own-content)
+- [Customizing parameters for each page](#customizing-parameters-for-each-page)
+- [Supported parameters](#supported-parameters)
+- [Showcased users (success stories!)](#showcased-users-success-stories)
+- [FAQ and support](#faq-and-support)
+- [Sponsors 🏆](#sponsors)
+- [Credits and contributions](#credits)
 
-### Install in your local development environment
+# Features
 
-If you want to manage your website in a local web development environment, you'll be using [Ruby](https://jekyllrb.com/docs/installation/).
+Check out the [CHANGELOG](./CHANGELOG.md) to see the latest features.
 
-Once you've found a home for your forked repository, **[clone it](https://help.github.com/articles/cloning-a-repository/)**.
+- **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
+- **Modern**: Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit.
+- **Mobile-first**: Designed to look great on both large-screen and small-screen (mobile) devices.
+- **Highly customizable**: Many personalization settings such as changing the background colour/image, adding a logo.
+- **Flexible usage**: Use Beautiful Jekyll directly on GitHub or using a Ruby gem - choose the best [development method](#build-your-website-in-3-steps) for you.
+- **Battle-tested**:  By using Beautiful Jekyll, you'll be joining tens of thousands of users who used this theme since 2015.
+- **Links to your social media**: You can easily add links to any of your social media accounts in the footer of every page.
+- **Comments support**: Add comments to any page using either [Disqus](https://disqus.com/), [Facebook comments](https://developers.facebook.com/docs/plugins/comments), [Utterances](https://utteranc.es/), or [Staticman](https://staticman.net).
+- **Share blog posts on social media**: By default, all blog posts have buttons to allow people to share on Twitter/Facebook/LinkedIn.
+- **Tags**: Any blog post can be tagged with keywords, and an index page showing all the tags is automatically generated.
+- **Tracking analytics**: Easily integrate Google Analytics, or other analytics platforms, to track visits to your website.
+- **Photos support**: Any page can have a cover photo around its title, and any blog post can have an associated image.
+- **More advanced features**: I wrote [a blog post](https://deanattali.com/2015/03/12/beautiful-jekyll-how-to-build-a-site-in-minutes/) describing some more advanced features that I used in my website that can be used in any beautiful-jekyll site.
 
-#### Install Jekyll
+# Build your website in 3 steps
 
-Jekyll is a [Ruby Gem](https://jekyllrb.com/docs/ruby-101/#gems) that can be installed on most systems.
+There's a very easy way to use this theme, and there's a hard way. For most people (including myself!), I suggest going the easy route. If you're an advanced user and want to tinker with the hard way (using ruby gems), then [skip the easy way](https://github.com/daattali/beautiful-jekyll#the-hard-way-using-ruby-gems) if you know what you're doing.
 
-1. Install a full [Ruby development environment](https://jekyllrb.com/docs/installation/)
-2. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
-```
-gem install jekyll bundler
-```
-3. Change into your new directory
-```
-cd personal-website
-```
-4. Install missing gems
-```
-bundle install
-```
-5. Build the site and make it available on a local server
-```
-bundle exec jekyll serve
-```
+## The easy way (recommended!)
 
-You should see something like:
+Getting started is *literally* as easy as 1-2-3 :smile:
 
-```
-Configuration file: /octocat/personal-website/_config.yml
-            Source: /octocat/personal-website
-       Destination: /octocat/_site
- Incremental build: disabled. Enable with --incremental
-      Generating...
-   GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
-                    done in 14.729 seconds.
- Auto-regeneration: enabled for '/octocat/personal-website'
-    Server address: http://127.0.0.1:4000
-  Server running... press ctrl-c to stop.
-```
+Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com/join), you'll need to sign up.
 
-Don't worry about the "No GitHub API authentication could be found" message. [API authentication is only necessary](https://github.com/jekyll/github-metadata/blob/master/docs/authentication.md) if you intend to display more detailed metadata, like a branch name.
+![Installation steps](assets/img/install-steps.gif)
 
-6. Now browse to [http://localhost:4000](http://localhost:4000)
+### 1. Fork this project
 
-### Publish
+Fork this project by clicking the __*Fork*__ button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.
 
-When you host your personal website's code on GitHub, you get the support of free hosting through GitHub Pages.
+### 2. Rename the project to `<yourusername>.github.io`
 
-**The fastest approach** is to rename your repository `username.github.io`, where `username` is your GitHub username (or organization name). Then, the next time you push any changes to your repository's `master` branch, they'll be accessible on the web at your `username.github.io` address.
+Click on __*Settings*__ at the top (the cog icon) and on that page you'll have an option to rename the project (*repository name*). This will create a website with the **Beautiful Jekyll** template that will be available at `https://<yourusername>.github.io` within a couple minutes. Check out the [FAQ](#faq-and-support) if you want to use a different project name.
 
-**If you want to use a custom domain**, you'll want to add it to your repository's "Custom domain" settings on github.com. And then register and/or [configure your domain with a DNS provider](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/).
+### 3. Customize your website settings
 
-## Customization
+Edit the `_config.yml` file to change any settings you want. To edit the file, click on it to view the file and then click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and I added comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings.
 
-It's your website, and you control the source code. So you can customize everything, if you like. But we've provided a handful of quick customizations for you to consider as you get your website off the ground.
+### 4. Congratulations! You have a website!
 
-### Quick configuration changes
+After you save your changes to the config file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
 
-Most customizations can be done in a matter of seconds, by revising your repository's `_config.yml` file. Just remember to restart your local server each time you save new changes so your Jekyll-powered website rebuilds correctly:
+Note that in the video above I only edited one setting in the `_config.yml` file. **You should actually go through the rest of the settings as well. Don't be lazy, go through all the settings :)**
 
-1. Shut down your server by entering the keyboard command <kbd>CTRL</kbd>+<kbd>c</kbd>
-2. Restart your server: `bundle exec jekyll serve`
+## The hard way (using ruby gems)
+
+If you followed the easy method above, then you already have your site and you can skip this section! If you want to install beautiful-jekyll using ruby gems instead, follow the [advanced installation instructions](https://beautifuljekyll.com/getstarted/#install-steps-hard).
 
 
-#### Layout
+# Add your own content
 
-Your website will display in a two-column layout by default on larger-screen devices, with your photo, name, and basic information displayed in a left-aligned "sidebar." You can quickly switch to a "stacked" single-column layout by changing the line in your `_config.yml` file that reads `layout: sidebar` to `layout: stacked`.
+To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file. It's much easier to write markdown than HTML, so I suggest you do that ([here's a great tutorial](https://markdowntutorial.com/) if you need to learn markdown in 5 minutes). You can look at some files on this demo site to get an idea of how to write markdown.
 
-#### Style
+To look at existing files, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On the next page you can see some nicely formatted text (there's a word in bold, a link, a few bullet points), and if you click on the pencil icon to edit the file, you'll see the markdown code that generated the pretty text. Very easy!
 
-Your website appears with a "light" white and gray background by default, with dark text. You can quickly switch to a "dark" background with white text by changing the line in your `_config.yml` file that reads `style: light` to `style: dark`.
+In contrast, look at [`tags.html`](./tags.html). That's how your write HTML - not as pretty. So stick with markdown if you don't know HTML.
 
-#### Projects
+Any markdown or HTML file that you create will be available on your website under `https://<yourusername>.github.io/<pagename>`. For example, if you create a file `about.md` (or `about.html`) then it'll exist at `https://<yourusername>.github.io/about`.
 
-The "My Projects" section of your website is generated by default with your nine most recently "pushed" repositories. It also excludes repositories that you forked, by default. But each of these parameters can be quickly customized in your repository's `_config.yml` file, under the `projects` dictionary line.
+Files you create inside the [`_posts`](./_posts) directory will be treated as blog entries. You can look at the existing files there to get an idea of how to write blog posts. Note the format of the blog post files - they must follow the naming convention of `YEAR-MONTH-DAY-title.md`. After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
 
-Parameters include:
+# Customizing parameters for each page
 
-- `sort_by`: The method by which repositories are sorted. Options include `pushed` and `stars`.
-- `limit`: The maximum number of repositories that will be displayed in the "My Projects" section of your website. Out of the box, this number is set to `9`.
-- `exclude`:
-   - `forks`: When `true`, repositories you've forked will be excluded from the listing.
-   - `projects`: A list the repository names you want to exclude from the listing.
-
-#### Topics
-
-Your website comes pre-configured with three topics (e.g. "Web design" and "Sass") that appear in a section titled "My Interests." These are also stored in your repository's `_config.yml` file, where you can define each topic's name and two other optional details:
-
-- `web_url`: The web address you'd like to your topic to link to (e.g. `https://github.com/topics/sass`).
-- `image_url`: The web address of an (ideally square) image that you'd like to appear with your topic.
-
-#### Social media
-
-Your website supports linking and sharing to social media services you're using, including Behance, Dribbble, Facebook, LinkedIn, Medium, Stack Overflow, Twitter, and YouTube. To identify the services you use:
-
-1. Edit your repository's `_config.yml` file.
-2. Edit the `social_media` dictionary line, and represent the services you like in a simple `key: value` form:
-
-```
-social_media:
-  behance: your_username
-  dribbble: your_username  
-  facebook: your_username
-  hackerrank: your_username
-  linkedin: your_username
-  medium: @your_username
-  stackoverflow: your_user_id
-  telegram: your_username
-  twitter: your_username
-  youtube: your_username
-  instagram: your_username
-  unsplash: your_username
-  vk: your_username
-```
-
-Links to your profile for each of the services you define will appear in the `<header>` of your website, appended to your bio. And if those services support sharing, any blog posts that you publish will include links to share that post using each social media service.
-
-**Note**: This feature is supported by two files in your repository:
-
-- `/_data/social_media.yml`: Defines each of the supported services, including variable name, display name, URL path, and SVG icon.
-- `/_includes/social_media_share_url.html`: Outputs the share URL required for any of the supported social media services that support sharing URLs.
-
-If you're interested in adding a social media service that's not already supported in this repo, you can edit these two files to build that support.
-
-## Adding pages
-
-To **add a page** to your website (e.g. detailed resume):
-
-1. Create a new `.html` or `.md` file at the root of your repository.
-2. Give it a filename that you want to be used in the page's URL (e.g. `http://yoursite.dev/filename`).
-3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
+**One last important thing**: In order to have your new pages use this template and not just be plain HTML pages, **you must add [YAML front matter](https://jekyllrb.com/docs/front-matter/) to the top of each page**. This is where you'll be able to give each page some extra parameters such as a title, a subtitle, or an image. [Below is a list of all available parameters](#supported-parameters). If you don't want to use any parameters on a page (this also means having no title), then use the empty YAML front matter:
 
 ```
 ---
-layout: default
 ---
 ```
 
-## Adding blog posts
-
-To **add a blog post** to your website:
-
-1. Create a new `.md` file in your repository's `/_posts/` directory.
-2. Give it a filename using the following format:
-
-```
-YEAR-MONTH-DAY-title.MARKUP
-```
-
-3. At the start of your file, include the following [front matter](https://jekyllrb.com/docs/front-matter/):
+If you do want to use any parameters, write them between these two lines. For example, you can have this at the top of a page:
 
 ```
 ---
-title: "The title of my blog post"
+title: Contact me
+subtitle: Here you'll find all the ways to get in touch with me
 ---
 ```
 
-Your website comes with a placeholder blog post that you can reference. Notably, its [front matter](https://jekyllrb.com/docs/front-matter/) declares `published` as `false`, so that it won't appear on your website.
+You can look at the top of [`aboutme.md`](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/aboutme.md) as an example.
 
-While you can define a `layout` in the front matter, your website is pre-configured to assign the `post` layout to all of the posts in your `/_posts/` directory. So you don't have to declare that in your posts.
+**Important takeaway: ALWAYS add the YAML front matter, which is two lines with three dashes, to EVERY page. If you have any parameters, they go between the two lines.**
 
-Jekyll's conventions for authoring and managing blog posts is very flexible. You can [learn more in Jekyll's documentation for "Posts."](https://jekyllrb.com/docs/posts/)
+If you don't include YAML then your file will not use this template.
 
-## Content and templates
+# Supported parameters
 
-To give you a sound foundation to start your personal website, your repository includes a handful of "includes" -- dynamic `.html` files that are re-used throughout your website. They're all stored in the `/_includes/` directory.
+Below is a list of the parameters that **Beautiful Jekyll** supports (any of these can be added to the YAML front matter of any page). Remember to also look in the `_config.yml` file to see additional settings.
 
-There are the usual suspects, like `header.html` and `footer.html`. But there are few more worth pointing out:
+## Main parameters
 
-- `interests.html`: A heading and dynamic list of "My Interests," which is populated with the [topics](#topics) you list in your `_config.yml`.
-- `masthead.html`: A collection of your avatar, name, bio, and other metadata that's displayed prominently on all your webpages to help identify what the website is about.
-- `post-card.html`: A compact, summarized presentation of a blog post, re-used to display a listing of your latest blog posts.
-- `projects.html`: A heading and dynamic list of "My Projects," which is populated with a listing of your newest GitHub repositories.
-- `repo-card.html`: A compact, summarized presentation of a repository, re-used to display a listing of your GitHub repositories.
-- `thoughts.html`: A heading and dynamic list of "My Thoughts," which is populated with a listing of your latest blog posts.
-- `topic-card.html`: A compact, summarized presentation of a topic (defined in your `_config.yml`), re-used to display a listing of your interests.
+These are the basic YAML parameters that you are most likely to use on most pages.
 
-### Layouts
+Parameter   | Description
+----------- | -----------
+title       | Page or blog post title
+subtitle    | Short description of page or blog post that goes under the title
+tags        | List of tags to categorize the post. Separate the tags with commas and place them inside square brackets. Example: `[personal, analysis, finance]`
+cover-img   | Include a large full-width image at the top of the page. You can either provide the path to a single image (eg. `"/path/to/img"`) , or a list of images to cycle through (eg. `["/path/img1", "/path/img2"]`). If you want to add a caption to an image, then the image should be provided as `{"/path/to/img" : "Caption of image"}`.
+comments    | If you want do add comments to a specific page, use `comments: true`. Comments only work if you enable one of the comments providers (Facebook, disqus, staticman, utterances) in `_config.yml` file. Comments are automatically enabled on blog posts but not on other pages; to turn comments off for a specific post, use `comments: false`.
 
-Your repository comes with three layouts:
+## Less commonly used parameters
 
-- **default**: Not used by any of the built-in pages or posts, but useful for any new pages you create.
-- **home**: Used by your `index.html` homepage to display listings of your projects, interests, and (optionally) your blog posts.
-- **post**: Used by default by the posts in your `/_posts/` directory.
+These are parameters that you may not use often, but can come in handy sometimes.
 
-Jekyll's convention for defining layouts is very flexible. You can [learn more about customizing your layouts in the Jekyll "Layouts" docs.](https://jekyllrb.com/docs/layouts/)
+Parameter   | Description
+----------- | -----------
+readtime    | If you want a post to show how many minutes it will take to read it, use `readtime: true`.
+show-avatar | If you have an avatar configured in the `_config.yml` but you want to turn it off on a specific page, use `show-avatar: false`.
+thumbnail-img | For blog posts, if you want to add a thumbnail that'll show up next to the post's excerpt in the feed, use `thumbnail-img: /path/to/image`. If no thumbnail is provided, then `cover-img` will be used as the thumbnail. You can use `thumbnail-img: ""` to disable a thumbnail.
+share-img   | The image to use when sharing the page to social media. If not provided, then `cover-img` or `thumbnail-img` will be used.
+social-share | By default, every blog post has buttons to share the page on social media. If you want to turn this feature off, use `social-share: false`.
+nav-short   | By default, the navigation bar gets shorter after scrolling down the page. If you want the navigation bar to always be short on a certain page, use `nav-short: true`
+gh-repo   | If you want to show GitHub buttons at the top of a post, this sets the GitHub repo name (eg. `daattali/beautiful-jekyll`). You must also use the `gh-badge` parameter to specify what buttons to show.
+gh-badge  | Select which GitHub buttons to display. Available options are: [star, watch, fork, follow]. You must also use the `gh-repo` parameter to specify the GitHub repo.
+layout      | What type of page this is (default is `post` for blog posts and `page` for other pages). See _Page types_ section below for more information.
+description | A brief description of the page (used in search engines and when the page is shared).
 
-## Styles
+## Advanced parameters
 
-Your website is pre-configured to use [GitHub's very flexible CSS framework called "Primer,"](https://styleguide.github.com/primer/). It's currently referenced within your `styles.scss` file, using the CSS import at-rule:
+These are advanced parameters that are only useful for people who need very fine control over their website.
 
-```
-@import url('https://unpkg.com/primer/build/build.css');
-```
+Parameter   | Description
+----------- | -----------
+footer-extra | If you want to include extra information in the footer (below the social media icons), create an HTML file in the `_includes/` folder (for example `_includes/myinfo.html`) and set `footer-extra` to the name of the file (for example `footer-extra: myinfo.html`)
+head-extra   | Works in a similar way to `footer-extra`, but used if you have any HTML code that needs to be included in the `<head>` tag of the page.
+language    | HTML language code to be set on the page's &lt;html&gt; element.
+use-site-title | If you want to use the site title rather than the page title as the HTML document title, use `use-site-title: true`.
+js          | List of local JavaScript files to include in the page (eg. `/assets/js/mypage.js`)
+ext-js      | List of external JavaScript files to include in the page (eg. `//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js`). External JavaScript files that support [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) can be specified using the `href` and `sri` parameters eg.<br/>`href: "//code.jquery.com/jquery-3.1.1.min.js"`<br/>`sri: "sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="`
+css         | List of local CSS files to include in the page
+ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported.
 
-You are, of course, welcome to remove it or replace it with another framework. Just bear in mind that the HTML that your website came pre-packaged with references multiple Primer "utility classes" to define things like column widths, margins, and background colors.
+## Page types
 
-You also have the option to add on to and extend Primer's styles by adding custom CSS to your `/assets/styles.scss` Sass stylesheet. By editing this file, you can customize your website's color scheme, typography, and more.
+- **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
+- **page** - Any page outside the `_posts` folder that uses YAML front matter will have a very similar style to blog posts.
+- **home** - The home layout is meant to act as the homepage of your blog posts - it will display all your blog posts, sorted from newest to oldest. A file using the `home` layout must be named `index.html` (not `index.md` or anything else!).
+- **minimal** - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal` to the YAML front matter.
+- If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
+
+# Showcased users (success stories!)
+
+Beautiful Jekyll has been used in tens of thousands of websites since 2015.  Here is a sample of some websites that use Beautiful Jekyll. If you'd like to showcase yourself and join this list, any level of [sponsorship](https://github.com/sponsors/daattali) will grant you that perk!
+
+## Project/company websites
+
+| Website | Description |
+| :------ |:----------- |
+| [repidemicsconsortium.org/](https://www.repidemicsconsortium.org/) | R Epidemics Consortium |
+| [vaccineimpact.org](https://www.vaccineimpact.org/) | Vaccine Impact Modelling Consortium |
+| [derekogle.com/fishR](http://derekogle.com/fishR/) | Using R for Fisheries Analyses |
+| [joecks.github.io/clipboard-actions](http://joecks.github.io/clipboard-actions/) | Clipboard Actions - an Android app |
+| [deanattali.com/shinyjs](http://deanattali.com/shinyjs/) | shinyjs - an R package |
+| [blabel.github.io](http://blabel.github.io) | Library for canonicalising blank node labels in RDF graphs |
+| [reactionic.github.io](http://reactionic.github.io) | Create iOS and Android apps with React and Ionic |
+| [ja2-stracciatella.github.io](http://ja2-stracciatella.github.io) | Jagged Alliance 2 Stracciatella |
+| [ddocent.com](http://ddocent.com/) | RADSeq Bioinformatics and Beyond |
+| [guitarlessons.org](https://www.guitarlessons.org/) | Free online guitar lessons for all |
+| [terremotocentroitalia.info](https://www.terremotocentroitalia.info/) | Information about the 2016 Italy earthquake |
 
 
-## License
+## Personal websites
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+| Website | Who | What |
+| :------ |:--- | :--- |
+| [deanattali.com](https://deanattali.com) | Dean Attali | Creator of Beautiful Jekyll |
+| [ouzor.github.io](http://ouzor.github.io) | Juuso Parkkinen | Data scientist |
+| [derekogle.com](http://derekogle.com/) | Derek Ogle | Professor of Mathematical Sciences and Natural Resources |
+| [melyanna.github.io](http://melyanna.github.io/) | Melyanna | Shows off her nice art |
+| [chauff.github.io](http://chauff.github.io/) | Claudia Hauff | Professor at Delft University of Technology |
+| [kootenpv.github.io](http://kootenpv.github.io/) | Pascal van Kooten | Data analytics |
+| [sjackman.ca](http://sjackman.ca) | Shaun Jackman | PhD candidate in bioinformatics |
+| [anudit.in](http://www.anudit.in/) | Anudit Verma | Engineering student |
+| [sharepointoscar.github.io](http://sharepointoscar.github.io) | Oscar Medina | Independent Hacker |
+| [ocram85.com](https://ocram85.com) | Marco Blessing | A personal blog about PowerShell and automation |
+| [khanna.cc](https://khanna.cc/) | Harry Khanna | Law and software |
+
+# FAQ and support
+
+If you need any help, I suggest heading over to the [Jekyll support forum](https://talk.jekyllrb.com/).
+
+Beautiful Jekyll is actively used by thousands of people with wildly varying degrees of competency, so it's impossible to answer all the questions that may arise. Below are answers to a few very common questions. Most questions that I get asked are not directly related to this theme, and instead are more general questions about Jekyll or web development. Many such questions can be answered by reading the [Jekyll documentation](https://jekyllrb.com/) or with Google.
+
+**If you really wany my personal help, please visit https://xscode.com/daattali/beautiful-jekyll to hire my services.**
+
+- ### How do I add a favicon to my site?
+
+  Easy! Just place a valid `favicon.ico` in the root directory of your project. And then wait! It can take a while to update.
+
+- ### How do I change the number of posts per page OR the colour of the navigation bar OR the image in the navigation bar OR ...?
+
+  Beautiful Jekyll is built to be very customizable, and as such, many questions about "how do I change ..." can be answered by looking at the `_config.yml` file. The configuration file has many adjustable parameters to customize your site.
+
+- ### What if I want to use a custom domain for my site?
+
+  GitHub lets you have your website for free using their `github.io` domain. If you want your own domain (such as `https://myname.com`), it's easy and will cost about $10-$15 per year. First you need to buy a domain name (I recommend [Namecheap](https://namecheap.pxf.io/daattali)) and then follow the [instructions GitHub provides](https://docs.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site).
+
+- ### What if I want a free domain, but not `https://<yourusername>.github.io`?
+
+  Every GitHub user can have one repository (repository = project) named `<yourusername>.github.io` and the website for that repository will be `https://<yourusername>.github.io`.
+
+  If you want your project to be named something else, for example `MyAwesomeProject`, that's no problem! All you have to do is go to _Settings_ at the top right corner of the page, and rename your repository to `MyAwesomeProject` (**remember to click on the _Rename_ button to confirm!**). Then you need to scroll down to the _GitHub Pages_ section and choose "master branch" as the source (not "master branch /docs folder"!).
+
+  Now your website will be at `https://<yourusername>.github.io\MyAwesomeProject`.
+
+- ### How do I move the blog to another page instead of having it on the home page?
+
+  The default style of Beautiful Jekyll is to feature the blog feed on the front page. For some sites that's not the ideal structure, and you may want to have a separate dedicated page for the blog posts. To have the blog hosted on a different URL (for example at `<mysite.com>/blog`), copy the `index.html` file into a folder with the same name as the desired page (for example, to `blog/index.html`), and in the `_config.yml` file you need to add a parameter `paginate_path: "/<page name>/page:num/"` (for example `paginate_path: "/blog/page:num/"`).
+
+- ### What size do you recommend using for the `cover-img` photos?
+
+  Unfortunately, this is a no-answer! There isn't a one-size-fits-all solution to this, because every person will view your site on a different browser with different dimensions. Some browsers will have very wide aspect ratio, some will be narrower, some will be vertical (such as phones), different phones have different screens, etc. The image will always be centered, so the only tip I can give is that you should make sure the important part of the image is in the middle so that it'll always show. Other than that, every browser will show a different clipping of the image.
+
+- ### How do I use math equations in my posts?
+
+  MathJax can be easily integrated into your website with a one-line addition. You can see [this discussion](https://github.com/daattali/beautiful-jekyll/issues/195) for more information.
+  
+<h2 id="sponsors">
+
+Sponsors 🏆
+
+</h2>
+
+> There are no sponsors yet
+
+[Become the first sponsor for
+Beautiful Jekyll\!](https://github.com/sponsors/daattali)
+
+# Contributions
+
+Thank you to [all past contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). If you find any problems or would like to contribute in any way, feel free to create a pull request/open an issue/send me a message.  Any comments are welcome!
+
+You can also contribute by becoming an [official sponsor](https://github.com/sponsors/daattali) to help keep beautiful-jekyll well-maintained.
+
+# Credits
+
+This template was not made *entirely* from scratch. I'd like to give special thanks to [Jekyll Now](https://github.com/barryclark/jekyll-now) and [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from whom I've taken several ideas initially.
+
+I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+
+# Known limitations
+
+- If there are many navigation bar links and an avatar, some of the links may get partially hidden behind the avatar. I suggest either re-thinking the number of links, or not using an avatar.
+
