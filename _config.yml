@@ -14,9 +14,9 @@ author: InPickSys
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://inpicksys.com"
+    - In picking the System: "https://inpicksys.io"
+    - Salt pound: "https://saltpound.com/"
+  Author's home: "https://inpicksys.io"
 
 # --- Logo --- #
 
@@ -68,11 +68,11 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+  vk: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "inpicksys.com"
+url-pretty: "inpicksys.io"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
