@@ -190,6 +190,7 @@ kramdown:
   syntax_highlighter: rouge
   auto_ids: true
   toc_levels: 1..3
+  math_engine: mathjax
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
@@ -223,7 +224,7 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-    - jekyll-latex
+  - jekyll-latex
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

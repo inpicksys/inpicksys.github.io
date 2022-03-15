@@ -57,16 +57,19 @@
       <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
     
       <link rel="stylesheet" href="/assets/css/main.css">
-    
-  
 
-  
 
-  
+    <!-- Load KaTeX -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
 
-  
 
-  <!-- Facebook OpenGraph tags -->
+
+
+
+
+
+    <!-- Facebook OpenGraph tags -->
   
 
   
@@ -439,11 +442,25 @@
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
     
       <script src="/assets/js/main.js"></script>
-    
-  
 
 
 
+
+
+    <!-- Parse the Latex divs with Katex-->
+    <script type="text/javascript">
+      $("script[type='math/tex']").replaceWith(
+              function(){
+                var tex = $(this).text();
+                return katex.renderToString(tex, {displayMode: false});
+              });
+
+      $("script[type='math/tex; mode=display']").replaceWith(
+              function(){
+                var tex = $(this).text();
+                return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+              });
+    </script>
 
 
 
