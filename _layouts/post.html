@@ -66,32 +66,33 @@ layout: base
       </ul>
       {% include comments.html %}
     </div>
-    <!-- Blog Sidebar Widgets Column -->
-    <div class="col-xl-10">
 
-      <!-- Blog Categories Well -->
-      <div class="well">
-        {% for category_name in page.categories limit:2 % }
-        <h4>{{ category_name | capitalize }}</h4>
-        <div class="row">
-          <div class="col-lg-6">
-            <ul class="list-unstyled">
-              {% for post in site.categories[category_name] limit:5 %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% endfor %}
-        <!-- /.row -->
-      </div>
+  </div>
+</div>
+<!-- Blog Sidebar Widgets Column -->
+<div class="container-md">
 
-      <!-- Side Widget Well -->
-      <div class="well">
-        {{% include contact-info.html %}}
+  <!-- Blog Categories Well -->
+  <div class="well">
+    {% for category_name in page.categories limit:2 % }
+    <h4>{{ category_name | capitalize }}</h4>
+    <div class="row">
+      <div class="col-lg-6">
+        <ul class="list-unstyled">
+          {% for post in site.categories[category_name] limit:5 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
+    {% endfor %}
+    <!-- /.row -->
+  </div>
+
+  <!-- Side Widget Well -->
+  <div class="well">
+    {{% include contact-info.html %}}
   </div>
 </div>
