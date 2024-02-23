@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [генетика, обучение, наука, stepik]
 comments: true
 lead: "Соотнесите понятие классической генетики с его определением." 
-category:
+categories:
    - stepik
    - courses
 ---
