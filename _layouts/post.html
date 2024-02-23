@@ -6,7 +6,7 @@ layout: base
 
 <div class="container-md">
   <div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+    <div class="col-xl-10 offset-xl-1 col-lg-10 offset-lg-1">
 
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
@@ -66,35 +66,32 @@ layout: base
       </ul>
       {% include comments.html %}
     </div>
-    <div class="col-xl-4 offset-xl-2 col-lg-2 offset-lg-1">
-      <!-- Blog Sidebar Widgets Column -->
-      <div class="col-md-4">
+    <!-- Blog Sidebar Widgets Column -->
+    <div class="col-xl-10">
 
-        <!-- Blog Categories Well -->
-        <div class="well">
-          <h4>Blog Categories</h4>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul class="list-unstyled">
-                <li><a href="#">Category Name</a>
-                </li>
-                <li><a href="#">Category Name</a>
-                </li>
-                <li><a href="#">Category Name</a>
-                </li>
-                <li><a href="#">Category Name</a>
-                </li>
-              </ul>
-            </div>
+      <!-- Blog Categories Well -->
+      <div class="well">
+        {% for category_name in page.categories limit:2 % }
+        <h4>{{ category_name | capitalize }}</h4>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="list-unstyled">
+              {% for post in site.categories[category_name] limit:5 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
           </div>
-          <!-- /.row -->
         </div>
+        {% endfor %}
+        <!-- /.row -->
+      </div>
 
-        <!-- Side Widget Well -->
-        <div class="well">
-          <h4>Side Widget Well</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-        </div>
+      <!-- Side Widget Well -->
+      <div class="well">
+        {{% include contact-info.html %}}
+      </div>
     </div>
   </div>
 </div>
