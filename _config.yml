@@ -4,7 +4,7 @@
 title: InPickSys
 
 # Short description of your site
-description: A virtual proof that I'm awesome
+description: Blog about assembling System
 
 # Your name to show in the footer
 author: InPickSys
@@ -13,6 +13,8 @@ author: InPickSys
 
 navbar-links:
   About Me: "aboutme"
+  Courses:
+    - Генетика и геномика популяций: "courses"
   Resources:
     - In picking the System: "https://inpicksys.io"
     - Salt pound: "https://saltpound.com/"
@@ -225,7 +227,5 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-latex
-
-# Beautiful Jekyll / Dean Attali
-# 2fc73a3a967e97599c9763d05e564189
+  - jekyll-gist
 
