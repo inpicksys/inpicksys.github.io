@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Lheujq
+title: Генетика и геномика популяций - модуль 1.2
 subtitle: Задачи модуля 1.2
 gh-repo: inpicksys/inpicksys.github.io
 gh-badge: [star, fork, follow]
 tags: [генетика, обучение, наука, stepik]
 comments: true
-lead: djljlkdjldkd ldkj lkjdlk jldk jlkjldkj 
+lead: "Соотнесите понятие классической генетики с его определением." 
 category:
    - stepik
    - courses
