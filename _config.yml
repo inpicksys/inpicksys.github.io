@@ -14,7 +14,10 @@ author: InPickSys
 navbar-links:
   About Me: "aboutme"
   Courses:
-    - Генетика и геномика популяций: "courses"
+    - Генетика и геномика популяций: "stepik-course-genetics-and-population"
+    - Нейронные сети и обработка текста: "stepik-neuro-networks-and-text-treatment"
+    - Основы комбинаторики: "stepik-course-combinatorics-basics"
+    - Теория вероятностей: "stepik-course-combinatorics-basics"
   Resources:
     - In picking the System: "https://inpicksys.io"
     - Salt pound: "https://saltpound.com/"
@@ -145,11 +148,11 @@ footer-link-col: "#404040"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  issue-term: title   # Mapping between blog posts and GitHub issues
-#  theme: github-light # Utterances theme
-#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+utterances:
+  repository: inpicksys/inpicksys.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  issue-term: title   # Mapping between blog posts and GitHub issues
+  theme: github-light # Utterances theme
+  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, first invite `staticmanlab` as a collaborator to your repository and
 # accept the invitation by going to `https://staticman3.herokuapp.com/v3/connect/github/<username>/<repo-name>`.
@@ -228,4 +231,5 @@ plugins:
   - jekyll-sitemap
   - jekyll-latex
   - jekyll-gist
+include: ['_pages']
 
