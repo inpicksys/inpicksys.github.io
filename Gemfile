@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "rack", "= 3.0.0"
-gem "puma", "= 6.0.0"
+gem "puma", "6.4.2"
 gem "rackup"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
