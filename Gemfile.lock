@@ -47,6 +47,8 @@ GEM
       octokit (~> 4.2)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-jupyter-notebook (0.0.6)
+      jekyll
     jekyll-latex (1.3.0)
       polytexnic (~> 1.10)
     jekyll-paginate (1.1.0)
@@ -155,6 +157,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-include-cache
+  jekyll-jupyter-notebook
   jekyll-latex
   jekyll-paginate
   jekyll-sitemap

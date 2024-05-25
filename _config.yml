@@ -231,5 +231,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-latex
   - jekyll-gist
+  - jekyll-jupyter-notebook
 include: ['_pages']
 
