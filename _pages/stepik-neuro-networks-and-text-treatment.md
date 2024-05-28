@@ -17,6 +17,6 @@ title:  "Stepik - Нейронные сети и обработка текста
 5. Преобразование последовательностей: 1-к-1 и N-к-M
 6. Transfer learning, адаптация моделей
 7. Финальное соревнование на kaggle и заключение
-   {::nomarkdown}
-   {% jupyter_notebook "neuro_4_5.ipynb" %}
-   {:/nomarkdown}
+   
+   
+   

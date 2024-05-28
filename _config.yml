@@ -215,6 +215,8 @@ defaults:
       layout: "page"
       show-avatar: true
 
+jupyter_notebook:
+  prompt: false
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
@@ -231,6 +233,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-latex
   - jekyll-gist
-  - jekyll-jupyter-notebook
+
 include: ['_pages']
 
