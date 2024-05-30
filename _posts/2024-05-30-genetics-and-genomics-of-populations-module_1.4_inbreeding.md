@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Генетика и геномика популяций - модуль 1.2
+title: Генетика и геномика популяций - модуль 1.4
 subtitle: Задачи модуля 1.2
 gh-repo: inpicksys/inpicksys.github.io
 gh-badge: [star, fork, follow]
