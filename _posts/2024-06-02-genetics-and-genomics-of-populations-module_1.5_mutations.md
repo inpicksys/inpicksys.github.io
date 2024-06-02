@@ -6,7 +6,6 @@ gh-repo: inpicksys/inpicksys.github.io
 gh-badge: [star, fork, follow]
 tags: [генетика, обучение, наука, stepik]
 comments: true
-cover-img: https://ucarecdn.com/173ead4e-eb33-4098-a671-9a1499e898eb/
 categories:
    - stepik
    - courses
