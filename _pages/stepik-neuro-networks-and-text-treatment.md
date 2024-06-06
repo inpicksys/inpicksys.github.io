@@ -5,7 +5,7 @@ title:  "Stepik - Нейронные сети и обработка текста
 ---
 
 1. Введение 
-   * [1.1 Всем привет! Расскажите нам о себе!](/neuro-networks-and-text-treatment/module_1.1-Hi-all-Tell-us-about-yourself)
+   * [1.1 Всем привет! Расскажите нам о себе!](/stepik/courses/genetics-and-genomics-of-populations-step_1_2-basics-genetic-laws.html)
    * [1.2 В общих чертах: естественный язык и текст](/)
    * [1.3 Особенности обработки естественных языков](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
    * [1.4 В общих чертах: Лингвистический анализ](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing) 
