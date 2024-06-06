@@ -1,5 +1,5 @@
 ---
-permalink: "/stepik-neuro-networks-and-text-treatment/neuro-networks-and-text-treatment/module_1.1-Hi-all-Tell-us-about-yourself"
+permalink: "/stepik-neuro-networks-and-text-treatment/module_1.1-Hi-all-Tell-us-about-yourself"
 layout: page
 title:  "Stepik - Нейронные сети и обработка текста"
 ---
