@@ -1,38 +1,29 @@
-source "https://rubygems.org"
-
-gem "rack", "= 3.0.0"
-gem "puma", "= 6.0.0"
-gem "rackup"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-
-# gem "github-pages", group: :jekyll_plugins
-
-# To upgrade, run `bundle update`.
-
-gem "jekyll"
-gem 'jekyll-admin', group: :jekyll_plugins
-gem "minimal-mistakes-jekyll"
-gem 'tzinfo-data'
-gem 'wdm', '>= 0.1.0'
-# The following plugins are automatically loaded by the theme-gem:
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jekyll-include-cache"
-gem 'jekyll-latex'
-
-#
-# If you have any other plugins, put them here!
+source 'https://rubygems.org'
 group :jekyll_plugins do
+    gem 'classifier-reborn'
+    gem 'jekyll'
+    gem 'jekyll-archives'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-feed'
+    gem 'jekyll-get-json'
+    gem 'jekyll-imagemagick'
+    gem 'jekyll-jupyter-notebook'
+    gem 'jekyll-link-attributes'
+    gem 'jekyll-minifier'
+    gem 'jekyll-paginate-v2'
+    gem 'jekyll-scholar'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-tabs'
+    gem 'jekyll-toc'
+    gem 'jekyll-twitter-plugin'
+    gem 'jemoji'
+    #gem 'therubyracer'
+    gem 'wdm', '~> 0.1.0'
+    gem 'unicode_utils'
+    gem 'webrick'
 end
-gem "webrick", "~> 1.7"
-
-gem "kramdown-syntax-coderay", "~> 1.0"
+group :other_plugins do
+    gem 'css_parser'
+    gem 'feedjira'
+    gem 'httparty'
+end
