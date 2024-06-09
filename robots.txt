@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://inpicksys.github.io/sitemap.xml
+Sitemap: https://inpicksys.github.io//sitemap.xml
