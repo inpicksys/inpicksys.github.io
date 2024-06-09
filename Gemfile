@@ -18,8 +18,8 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'faraday-retry'
-    #gem 'therubyracer'
-    gem 'wdm', '~> 0.1.0'
+    gem 'therubyracer'
+    #gem 'wdm', '~> 0.1.0'
     gem 'unicode_utils'
     gem 'webrick'
 end
