@@ -2,7 +2,13 @@
 permalink: "/stepik-neuro-networks-and-text-treatment/"
 layout: page
 title:  "Stepik - Нейронные сети и обработка текста"
+description: Нейронные сети и обработка текста
 category: stepik
+importance: 2
+giscus_comments: true
+toc:
+   sidebar: right
+thumbnail: assets/img/1.jpg
 ---
 
 1. Введение 
