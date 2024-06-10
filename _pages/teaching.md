@@ -5,7 +5,7 @@ title: Teaching
 description: Solving tasks of the courses
 nav: true
 nav_order: 3
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/teaching.md -->
