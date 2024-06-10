@@ -2,6 +2,7 @@
 permalink: "/stepik-course-genetics-and-population/"
 layout: page
 title:  "Stepik - генетика и геномика популяций"
+category: stepik
 ---
 
 

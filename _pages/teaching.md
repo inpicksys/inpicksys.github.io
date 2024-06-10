@@ -5,8 +5,8 @@ permalink: /teaching/
 description: Solving tasks of the courses
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [work, fun, stepik]
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->

@@ -2,6 +2,7 @@
 permalink: "/stepik-course-combinatorics-basics/"
 layout: page
 title:  "Stepik - Основы Комбинаторики"
+category: stepik
 ---
 
 1. Элементарная комбинаторика - I
