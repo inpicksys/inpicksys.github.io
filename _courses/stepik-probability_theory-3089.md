@@ -1,11 +1,11 @@
 ---
 permalink: "/stepik-probability_theory-3089/"
 layout: page
-title:  "Stepik - Теория веротяностей"
+title:  "Stepik - Теория вероятностей"
 description: Теория Вероятностей
 category: stepik
 img: assets/img/probability_course_logo.png
-importance: 2
+importance: 1
 giscus_comments: true
 toc:
   sidebar: right
@@ -31,7 +31,7 @@ thumbnail: assets/img/probability_course_logo.png
 * [2.6 Локальная теорема Муавра–Лапласа](/)
 * [2.7 Интегральная теорема Муавра–Лапласа](/)
 
-### 3. Элементарная теория вероятностей: случайные величины
+### 3. Общая теория вероятностей
 * [3.1 Геометрическая вероятность](/neuro-networks-and-text-treatment/module_4_3-workshop-generating-names-and-slogans-using-RNN/step_2)
 * [3.2 Аксиоматическое определение вероятности](/)
 * [3.3 Случайные величины](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
