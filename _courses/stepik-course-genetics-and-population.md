@@ -16,8 +16,8 @@ toc:
 [Генетика и геномика популяций](https://stepik.org/course/9182/syllabus)
 
 ### 1. Генетическое разнообразие в популяции
-   * [1.1 Введение в курс]("/stepik-course-genetics-and-population/module_1.2-basics-genetic-laws") 
-   * [1.2 Основные понятия и законы генетики](/stepik/courses/genetics-and-genomics-of-populations-step_1_2-basics-genetic-laws.html)
+   * [1.1 Введение в курс](https://stepik.org/lesson/295217/step/1?unit=276888) 
+   * [1.2 Основные понятия и законы генетики](/stepik-course-genetics-and-population/module_1.2-basics-genetic-laws)
    * [1.3 Равновесие в популяции. Закон Харди-Вайнберга](/stepik/courses/genetics-and-genomics-of-populations-module_1.3_equilibrium_in_the_population_Hardy-Weinberg_law.html)
    * [1.4 Ассортативность скрещиваний. Инбридинг](/stepik/courses/genetics-and-genomics-of-populations-module_1.4_inbreeding.html)
    * [1.5 Мутационный процесс](/stepik/courses/genetics-and-genomics-of-populations-module_1.5_mutations.html)
