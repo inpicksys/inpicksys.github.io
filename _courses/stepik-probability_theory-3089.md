@@ -1,6 +1,6 @@
 ---
 permalink: "/stepik-probability_theory-3089/"
-layout: post
+layout: page
 title:  "Stepik - Теория вероятностей"
 description: Теория Вероятностей
 category: stepik

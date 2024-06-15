@@ -7,7 +7,7 @@ category: stepik-course-genetics-and-population
 importance: 1
 giscus_comments: true
 toc:
-  sidebar: right
+    sidebar: right
 ---
 
 [Основные понятия и законы генетики](https://stepik.org/lesson/88180/step/1?unit=64520)
