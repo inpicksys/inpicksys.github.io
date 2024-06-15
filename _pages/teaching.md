@@ -6,7 +6,7 @@ description: Solving tasks of the courses
 nav: true
 nav_order: 3
 display_categories: [work, fun, stepik]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/teaching.md -->
