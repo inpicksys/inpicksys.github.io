@@ -4,7 +4,7 @@ layout: page
 title:  "Stepik - Основы Комбинаторики"
 category: stepik
 description: Основы Комбинаторики
-img: assets/img/probability_course_logo.png
+img: assets/img/combinatorics_logo.png
 importance: 1
 giscus_comments: true
 toc:

@@ -1,5 +1,5 @@
 ---
-permalink: "/stepik-course-genetics-and-population/module_1.2-basics-genetic-laws"
+permalink: "/stepik-course-genetics-and-population/module_1_2-basics-genetic-laws"
 layout: page
 title:  "Основные понятия и законы генетики"
 description: Генетика и геномика популяций
