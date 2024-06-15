@@ -1,20 +1,20 @@
 ---
 permalink: "/stepik-probability_theory-3089/"
-layout: page
+layout: post
 title:  "Stepik - Теория вероятностей"
 description: Теория Вероятностей
 category: stepik
-cover-img: assets/img/probability_course_logo.png
+img: assets/img/probability_course_logo.png
 importance: 1
 giscus_comments: true
 toc:
   sidebar: right
-thumbnail: assets/img/probability_course_logo.png
+#thumbnail: assets/img/probability_course_logo.png
 ---
 
 ### 1. Элементарная теория вероятностей: случайные события
 * [1.2 Вероятностная модель эксперимента](/stepik-probability_theory-3089/module-1_2-probabilistic-model-of-space)
-* [1.3 Вероятностные пространства](/)
+* [1.3 Вероятностные пространства](/stepik-probability_theory-3089/module-1_3-probability-spaces)
 * [1.4 Немного комбинаторики](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
 * [1.5 Условная вероятность](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
 * [1.6 Теорема Байеса](/)
