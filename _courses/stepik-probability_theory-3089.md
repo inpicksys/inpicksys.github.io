@@ -9,7 +9,7 @@ importance: 1
 giscus_comments: true
 toc:
   sidebar: right
-#thumbnail: assets/img/probability_course_logo.png
+thumbnail: assets/img/probability_course_logo.png
 ---
 
 ### 1. Элементарная теория вероятностей: случайные события

@@ -3,7 +3,7 @@ permalink: "/stepik-probability_theory-3089/module-1_3-probability-spaces"
 layout: page
 title:  "Основные понятия и законы генетики"
 description: Теория Вероятностей
-category: stepik
+category: stepik-probability_theory-3089
 importance: 1
 giscus_comments: true
 toc:
