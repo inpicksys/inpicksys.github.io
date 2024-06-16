@@ -15,8 +15,8 @@ toc:
 ### 1. Элементарная теория вероятностей: случайные события
 * [1.2 Вероятностная модель эксперимента](/stepik-probability_theory-3089/module-1_2-probabilistic-model-of-space)
 * [1.3 Вероятностные пространства](/stepik-probability_theory-3089/module-1_3-probability-spaces)
-* [1.4 Немного комбинаторики](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
-* [1.5 Условная вероятность](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
+* [1.4 Немного комбинаторики](/stepik-probability_theory-3089/module-1_4-a-little-combinatorics)
+* [1.5 Условная вероятность]()
 * [1.6 Теорема Байеса](/)
 * [1.7 Независимые события](/)
 * [1.8 Схема Бернулли](/)
