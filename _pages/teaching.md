@@ -4,9 +4,9 @@ title: Teaching
 permalink: /teaching/
 description: Solving tasks of the courses
 nav: true
-nav_order: 4
+nav_order: 1
 display_categories: [stepik]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/teaching.md -->
