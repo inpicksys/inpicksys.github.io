@@ -5,10 +5,11 @@ title:  "Stepik - Нейронные сети и обработка текста
 description: Нейронные сети и обработка текста
 category: stepik
 importance: 2
+img: assets/img/neuro-text_nlp_logo.png
 giscus_comments: true
 toc:
    sidebar: right
-thumbnail: assets/img/1.jpg
+thumbnail: assets/img/monika-5.jpg
 ---
 
 1. Введение 

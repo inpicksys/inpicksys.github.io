@@ -74,8 +74,8 @@ $$
 Кроме того \\(P(A_2)=P(A_3)=P(A_4)=P(A_5)=2P(A_1)\\), поскольку в понедельник он вытачивает в два раза меньше шурупов, чем в каждый из остальных рабочих дней. Тогда \\(P(A_1)=\frac{1}{9}\\) и \\(P(A_2)=P(A_3)=P(A_4)=P(A_5)=\frac{2}{9}\\). По теореме Байеса имеем
 
 $$
-P(A_1|B)=\frac{P(B|A_1)P(A_1)}{P(B|A_1)P(A_1)+P(B|A_2)P(A_2)+...+P(B|A_5)P(A_5)}= \newline 
-=\frac{\frac{1}{2}\cdot\frac{1}{9}}{\frac{1}{2}\cdot\frac{1}{9}+\frac{1}{5}\cdot\frac{2}{9}+3\cdot\frac{1}{10}\cdot\frac{2}{9}}=\frac{1}{3}
+\displaylines{P(A_1|B)=\frac{P(B|A_1)P(A_1)}{P(B|A_1)P(A_1)+P(B|A_2)P(A_2)+...+P(B|A_5)P(A_5)}= \\
+=\frac{\frac{1}{2}\cdot\frac{1}{9}}{\frac{1}{2}\cdot\frac{1}{9}+\frac{1}{5}\cdot\frac{2}{9}+3\cdot\frac{1}{10}\cdot\frac{2}{9}}=\frac{1}{3}}
 $$
 
 **Ответ:** 1/3
@@ -98,9 +98,10 @@ $$
 Таким образом, $$P(B|A_k)=\frac{k-m}{n-1}$$. По формуле полной вероятности имеем
 
 $$
-P(B)=P(B|A_1)P(A_1)+P(B|A_2)P(A_2)+...+P(B|A_n)P(A_n)= \newline =P(B|A_{m+1})P(A_{m+1})+P(B|A_{m+2})P(A_{m+2})+...+P(B|A_{n})P(A_{n})= \newline
-=\frac{1}{n-1}\cdot\frac{1}{n}+\frac{2}{n-1}\cdot\frac{1}{n}+\frac{3}{n-1}\cdot\frac{1}{n}+...+\frac{n-m}{n-1}\cdot\frac{1}{n}= \newline
-=\frac{1+2+3+...+(n-m)}{n(n-1)}=\frac{(n-m)(n-m+1)}{2n(n-1)}
+\displaylines{P(B)=P(B|A_1)P(A_1)+P(B|A_2)P(A_2)+...+P(B|A_n)P(A_n)= \\
+=P(B|A_{m+1})P(A_{m+1})+P(B|A_{m+2})P(A_{m+2})+...+P(B|A_{n})P(A_{n})= \\
+=\frac{1}{n-1}\cdot\frac{1}{n}+\frac{2}{n-1}\cdot\frac{1}{n}+\frac{3}{n-1}\cdot\frac{1}{n}+...+\frac{n-m}{n-1}\cdot\frac{1}{n}= \\
+=\frac{1+2+3+...+(n-m)}{n(n-1)}=\frac{(n-m)(n-m+1)}{2n(n-1)}}
 $$
 
 **Ответ:** (n-m)*(n-m+1)/(2*n*(n-1))
