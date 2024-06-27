@@ -18,9 +18,9 @@ toc:
 * [1.4 Немного комбинаторики](/stepik-probability_theory-3089/module-1_4-a-little-combinatorics)
 * [1.5 Условная вероятность](/stepik-probability_theory-3089/module-1_5-conditional-probability)
 * [1.6 Теорема Байеса](/stepik-probability_theory-3089/module-1_6-Bayes-theorem)
-* [1.7 Независимые события](/)
-* [1.8 Схема Бернулли](/)
-* [1.9 Краткие сведения из математического анализа](/)
+* [1.7 Независимые события](/stepik-probability_theory-3089/module-1_7-Independent-events)
+* [1.8 Схема Бернулли](/stepik-probability_theory-3089/module-1_8-Bernoulli-scheme)
+* [1.9 Краткие сведения из математического анализа](/stepik-probability_theory-3089/module-1_9-Brief-information-from-mathematical-analysis)
 
 ### 2. Элементарная теория вероятностей: случайные величины
 * [2.1 Случайные величины](/neuro-networks-and-text-treatment/module_4_3-workshop-generating-names-and-slogans-using-RNN/step_2)
