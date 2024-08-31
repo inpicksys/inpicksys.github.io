@@ -1,0 +1,17 @@
+
+  volume={40},
+  issue={10},
+  pages={856--861},
+  year={2011},
+  month={March},
+  preview={brownian-motion.gif},
+  location={Chernovtsi},
+  publisher={Springer},
+  doi={10.1007/s11664-011-1595-z},
+  pdf={example_pdf.pdf},
+  google_scholar_id={cGALo4gAAAAJ},
+  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  dimensions={true},
+  url={https://link.springer.com/article/10.1007/s11664-011-1595-z},
+  html={https://link.springer.com/article/10.1007/s11664-011-1595-z},
+  altmetric={137713713}
