@@ -1,4 +1,10 @@
 
+bibtex_show={true},
+  abstract={Classical thermoelectricity is based on the use of the Seebeck and Thomson effects that occur in the near-contact areas between n- and p-type materials. A conceptually different approach to thermoelectric power converter design that is based on the law of thermoelectric induction of currents is also known. The efficiency of this approach has already been demonstrated by its first applications. More than 10 basically new types of thermoelements were discovered with properties that cannot be achieved by thermocouple power converters. Therefore, further development of this concept is of practical interest. This paper provides a classification and theory for solving the inverse problems of thermoelectricity that form the basis for devising new thermoelement types. Computer methods for their solution for anisotropic and inhomogeneous media are elaborated. Regularities related to thermoelectric current excitation in anisotropic and inhomogeneous media are established. The possibility of obtaining eddy currents of a particular configuration through control of the temperature field and material parameters for the creation of new thermo- element types is demonstrated for three-dimensional (3D) models of anisotropic and inhomogeneous media.},
+  title={Inverse Problems of Thermoelectricity},
+  author={L. I. Anatychuk, and M. N. Strutinsky, Luste O.J., Kuz R.V.},
+  journal={Journal of Electronic Materials},
+
   volume={40},
   issue={10},
   pages={856--861},
