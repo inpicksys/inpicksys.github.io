@@ -1,4 +1,4 @@
-# 
+#
 
 <div align="center">
 
@@ -24,7 +24,7 @@
 
 ## User community
 
-The vibrant community of **** users is growing!
+The vibrant community of \*\*\*\* users is growing!
 Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
 Check out the community webpages below.
 Feel free to add your own page(s) by sending a PR.
@@ -298,7 +298,7 @@ You can easily create your own collections, apps, short stories, courses, or wha
 
 ### Layouts
 
-**** comes with stylish layouts for pages and blog posts.
+\*\*\*\* comes with stylish layouts for pages and blog posts.
 
 #### The iconic style of Distill
 
@@ -310,7 +310,7 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 
 #### Full support for math & code
 
-**** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes). Also supports [chartjs charts](https://www.chartjs.org/), [mermaid diagrams](https://mermaid-js.github.io/mermaid/#/), and [TikZ figures](https://tikzjax.com/).
+\*\*\*\* supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes). Also supports [chartjs charts](https://www.chartjs.org/), [mermaid diagrams](https://mermaid-js.github.io/mermaid/#/), and [TikZ figures](https://tikzjax.com/).
 
 <p align="center">
 <a href="https://alshedivat.github.io//blog/2015/math/" target="_blank"><img src="readme_preview/math.png" width=400></a>
@@ -333,7 +333,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 #### GitHub's repositories and user stats
 
-**** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
+\*\*\*\* uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
 
 [![Repositories Preview](readme_preview/repositories.png)](https://alshedivat.github.io//repositories/)
 
@@ -376,7 +376,7 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 
 #### Social media previews
 
-**** supports preview images on social media. To enable this functionality you will need to set `serve_og_meta` to `true` in your [\_config.yml](_config.yml). Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
+\*\*\*\* supports preview images on social media. To enable this functionality you will need to set `serve_og_meta` to `true` in your [\_config.yml](_config.yml). Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
 
 You will then need to configure what image to display in your site's social media previews. This can be configured on a per-page basis, by setting the `og_image` page variable. If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your [\_config.yml](_config.yml). In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
@@ -410,7 +410,7 @@ For frequently asked questions, please refer to [FAQ.md](FAQ.md).
 
 ## Contributing
 
-Contributions to  are very welcome! Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
+Contributions to are very welcome! Before you get started, please take a look at [the guidelines](CONTRIBUTING.md).
 
 If you would like to improve documentation or fix a minor inconsistency or bug, please feel free to send a PR directly to `master`. For more complex issues/bugs or feature requests, please open an issue using the appropriate template.
 
@@ -457,4 +457,4 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat//blob/master/LICENSE).
 
-Originally, **** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+Originally, \*\*\*\* was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.

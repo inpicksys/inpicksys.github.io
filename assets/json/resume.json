@@ -39,7 +39,19 @@
       "startDate": "2011-02-24",
       "endDate": "2015-12-25",
       "summary": "EFM   – (Enterprise Feedback Management) - enterprise   survey \nand feedback response management solution for actively managing \n  customer and employee feedback programs. Designed for business \nusers, Verint   EFM includes multichannel surveying for capturing \ncustomer input across web,   telephone, email, and mobile channels. \nEFM is solution for creating surveys   using built-in templates or the \nsolution's flexible survey editor. Customers   can deploy, access, and \nretrieve surveys on a range of mobile devices. There   is opportunity to \ndeploy surveys offline or by using the web app, SMS, or a   self-service \nkiosk",
-      "highlights": ["C#", "Asp.Net Web Forms", "AJAX", "JavaScript/Telerik Ajax", "HTML", "CSS", "Perforce", "TeamCity", "SQL", "MS SQL SERVER", "Telerik automation \nframework"]
+      "highlights": [
+        "C#",
+        "Asp.Net Web Forms",
+        "AJAX",
+        "JavaScript/Telerik Ajax",
+        "HTML",
+        "CSS",
+        "Perforce",
+        "TeamCity",
+        "SQL",
+        "MS SQL SERVER",
+        "Telerik automation \nframework"
+      ]
     }
   ],
   "education": [
