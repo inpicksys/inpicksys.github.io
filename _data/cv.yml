@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 08 July 1983
     - name: Languages
-      value: Russian. English, Francias
+      value: Russian. English, French
 
 - title: Education
   type: time_table
@@ -21,7 +21,7 @@
             - Sub-description 1.
             - Sub-description 2.
     - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      institution: Institute of Thermoelectricity, Chernovtsi, Ukraine
       year: 1900
       description:
         - Description 1.
@@ -66,17 +66,6 @@
     - title: <a href="https://github.com/alshedivat/"></a>
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list

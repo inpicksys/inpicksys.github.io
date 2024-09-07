@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Mikhail Strutinsky",
+    "label": "Fullstack developer, scientist",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "mikhail.strutinsky@gmail.com",
     "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io//",
+    "url": "https://inpicksys.github.io//",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
+      "address": "Nowhere street",
+      "postalCode": "",
       "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "countryCode": "UA",
+      "region": ""
     },
     "profiles": [
       {
@@ -24,38 +24,46 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Thermoelectricity Institute, Chernovtsi",
+      "position": "Scientist & Researcher",
+      "url": "https://inst.cv.ua",
+      "startDate": "2005-12-01",
+      "endDate": "2011-01-25",
+      "summary": "Researching & investigation. Developing special program products, modeling. Worked on developing automobile thermoelectric generators, coolers & sensors. Investigated Inverse problems of mathematical physics. PhD In Physics, specialization - \"Physics of devices of elements and systems Thesis work: \"Inverse problems of thermoelectricity\"",
+      "highlights": ["Inverse Problems", "Physics of devices of elements and \nsystems", "Thermoelectricity", "Comsol", "C#"]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Verint, Chernovtsi",
+      "position": "Software Developer",
+      "url": "https://www.verint.com/",
+      "startDate": "2011-02-24",
+      "endDate": "2015-12-25",
+      "summary": "EFM   – (Enterprise Feedback Management) - enterprise   survey \nand feedback response management solution for actively managing \n  customer and employee feedback programs. Designed for business \nusers, Verint   EFM includes multichannel surveying for capturing \ncustomer input across web,   telephone, email, and mobile channels. \nEFM is solution for creating surveys   using built-in templates or the \nsolution's flexible survey editor. Customers   can deploy, access, and \nretrieve surveys on a range of mobile devices. There   is opportunity to \ndeploy surveys offline or by using the web app, SMS, or a   self-service \nkiosk",
+      "highlights": ["C#", "Asp.Net Web Forms", "AJAX", "JavaScript/Telerik Ajax", "HTML", "CSS", "Perforce", "TeamCity", "SQL", "MS SQL SERVER", "Telerik automation \nframework"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Master of Applied Math, National University, Chernovtsi",
+      "location": "Chernovtsi, Ukraine",
+      "url": "https://www.chnu.edu.ua/",
+      "area": "Applied Math",
+      "studyType": "Master",
+      "startDate": "2000-09-01",
+      "endDate": "2005-07-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Applied Math"]
+    },
+    {
+      "institution": "Associate's degree, Ukraine National Academy, Chernovts",
+      "location": "Chernovtsi, Ukraine",
+      "url": "https://www.nas.gov.ua/",
+      "area": "Material Science specialization. Designing thermoelectric devices: \ngenerators, coolers & sensors.",
+      "studyType": "Associate's degree",
+      "startDate": "2007-09-01",
+      "endDate": "2010-09-01",
+      "score": "10",
+      "courses": ["Material Science", "Physics", "Engineer"]
     }
   ],
   "awards": [
