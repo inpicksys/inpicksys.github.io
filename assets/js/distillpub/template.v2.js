@@ -786,8 +786,8 @@ ${math}
     }
   }
 
-  DMath.katexAdded = false;
-  DMath.inlineMathRendered = false;
+  DMath.katexAdded = true;
+  DMath.inlineMathRendered = true;
   window.DMath = DMath; // TODO: check if this can be removed, or if we should expose a distill global
 
   // Copyright 2018 The Distill Template Authors
