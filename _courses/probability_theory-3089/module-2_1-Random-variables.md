@@ -69,8 +69,8 @@ $$
 - [X] \\(\xi^2\\) и \\(\eta^3\\)
 - [X] \\(\xi+\eta\\) и \\(\zeta^2\\)
 - [X] \\(7-\xi\\) и \\(\eta+\zeta\\)
-- [ ] `$$min{\xi, \eta}$$` и `$$ max{\xi, \zeta} $$` 
-- [ ] `$$min{\xi, \eta} $$` и `$$ max\{xi, \eta} $$`
+- [ ] $$min{\xi, \eta}$$ и $$ max{\xi, \zeta} $$ 
+- [ ] $$min{\xi, \eta} $$ и $$ max\{xi, \eta} $$
 
 
 **Решение**
