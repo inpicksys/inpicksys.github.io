@@ -89,11 +89,11 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "WebRTC - Create Zoom Clone Video Group Call Application",
+      "date": "2024-09-101",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-2c363f3f-577f-44f5-928a-b95ca3c72208/",
+      "icon": "fa-solid fa-envelope"
     },
     {
       "name": "Quantum Computing",
