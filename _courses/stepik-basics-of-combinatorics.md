@@ -1,7 +1,7 @@
 ---
 permalink: "/stepik-course-combinatorics-basics/"
 layout: page
-title: "Stepik - Основы Комбинаторики"
+title: "Stepik - Основы перечислительной комбинаторики"
 category: stepik
 description: Основы Комбинаторики
 img: assets/img/combinatorics_logo.png
@@ -13,7 +13,7 @@ toc:
 
 1. Элементарная комбинаторика - I
 
-   - [1.1 Основные понятия теории множеств](/stepik-course-combinatorics-basics/)
+   - [1.1 Основные понятия теории множеств](/stepik-basics-of-combinatorics/module_1_1-Basic-concepts-of-set-theory)
    - [1.2 Основные правила перечислительной комбинаторики](/stepik-course-combinatorics-basics/)
    - [1.3 Принцип Дирихле](/stepik-course-combinatorics-basics/)
    - [1.4 K-сочетания из n-элементов](/stepik-course-combinatorics-basics/)

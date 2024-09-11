@@ -18,9 +18,9 @@ toc:
 
 - [1.1 Введение в курс](https://stepik.org/lesson/295217/step/1?unit=276888)
 - [1.2 Основные понятия и законы генетики](/stepik-course-genetics-and-population/module_1_2-basics-genetic-laws)
-- [1.3 Равновесие в популяции. Закон Харди-Вайнберга](/stepik/courses/genetics-and-genomics-of-populations-module_1.3_equilibrium_in_the_population_Hardy-Weinberg_law.html)
-- [1.4 Ассортативность скрещиваний. Инбридинг](/stepik/courses/genetics-and-genomics-of-populations-module_1.4_inbreeding.html)
-- [1.5 Мутационный процесс](/stepik/courses/genetics-and-genomics-of-populations-module_1.5_mutations.html)
+- [1.3 Равновесие в популяции. Закон Харди-Вайнберга](/stepik-course-genetics-and-population/module_1_3-equilibrium_in_the_population_Hardy-Weinberg_law)
+- [1.4 Ассортативность скрещиваний. Инбридинг]()
+- [1.5 Мутационный процесс]()
 - [1.6 Нейтральная теория и ее следствия]()
 
 ### 2. Демографическая история популяций
