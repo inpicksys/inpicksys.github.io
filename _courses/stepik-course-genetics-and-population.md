@@ -19,7 +19,7 @@ toc:
 - [1.1 Введение в курс](https://stepik.org/lesson/295217/step/1?unit=276888)
 - [1.2 Основные понятия и законы генетики](/stepik-course-genetics-and-population/module_1_2-basics-genetic-laws)
 - [1.3 Равновесие в популяции. Закон Харди-Вайнберга](/stepik-course-genetics-and-population/module_1_3-equilibrium_in_the_population_Hardy-Weinberg_law)
-- [1.4 Ассортативность скрещиваний. Инбридинг]()
+- [1.4 Ассортативность скрещиваний. Инбридинг](/stepik-course-genetics-and-population/module_1_4_inbreeding)
 - [1.5 Мутационный процесс]()
 - [1.6 Нейтральная теория и ее следствия]()
 
