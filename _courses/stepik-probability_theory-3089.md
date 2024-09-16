@@ -28,7 +28,7 @@ toc:
 - [2.1 Случайные величины](/stepik-probability_theory-3089/module-2_1-Random-variables)
 - [2.2 Математическое ожидание](/stepik-probability_theory-3089/module-2_2-Mathematical-Expectation)
 - [2.3 Дисперсия](/stepik-probability_theory-3089/module-2_3-Dispersion)
-- [2.4 Закон больших чисел](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
+- [2.4 Закон больших чисел](/stepik-probability_theory-3089/module-2_4-Law-of-Large-Numbers)
 - [2.5 Теорема Пуассона](/)
 - [2.6 Локальная теорема Муавра–Лапласа](/)
 - [2.7 Интегральная теорема Муавра–Лапласа](/)
