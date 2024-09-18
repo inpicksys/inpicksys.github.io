@@ -27,8 +27,8 @@ toc:
 
 - [2.1 Дрейф генов. Модель Райта-Фишера](/stepik-course-genetics-and-population/module_2_1-genetic-drift-Wright-Fisher-model)
 - [2.2 Коалесцентная теория](/stepik-course-genetics-and-population/module_2_2-coalescence-theory)
-- [2.3 Коалесцентные методы демографического анализа]()
-- [2.4 Поток генов]()
+- [2.3 Коалесцентные методы демографического анализа](/stepik-course-genetics-and-population/module_2_3-coalescence-methods-of-demographic-analysis)
+- [2.4 Поток генов](/stepik-course-genetics-and-population/module_2_4-gene-flow)
 - [2.5 Анализ генетического смешения]()
 
 ### 3. Естественный отбор

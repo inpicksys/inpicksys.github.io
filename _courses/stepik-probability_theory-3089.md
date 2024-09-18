@@ -30,8 +30,8 @@ toc:
 - [2.3 Дисперсия](/stepik-probability_theory-3089/module-2_3-Dispersion)
 - [2.4 Закон больших чисел](/stepik-probability_theory-3089/module-2_4-Law-of-Large-Numbers)
 - [2.5 Теорема Пуассона](/stepik-probability_theory-3089/module-2_5-Poisson-theorem)
-- [2.6 Локальная теорема Муавра–Лапласа](/)
-- [2.7 Интегральная теорема Муавра–Лапласа](/)
+- [2.6 Локальная теорема Муавра–Лапласа](/stepik-probability_theory-3089/module-2_6-Local-Moivre-Laplace-theorem)
+- [2.7 Интегральная теорема Муавра–Лапласа](/stepik-probability_theory-3089/module-2_7-Moivre–Laplace-integral-theorem)
 
 ### 3. Общая теория вероятностей
 

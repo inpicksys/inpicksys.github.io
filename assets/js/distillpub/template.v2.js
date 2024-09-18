@@ -3188,6 +3188,8 @@ d-citation-list .references .title {
     Prism.languages.html = Prism.languages.markup;
     Prism.languages.mathml = Prism.languages.markup;
     Prism.languages.svg = Prism.languages.markup;
+    Prism.languages.R = Prism.languages.markup;
+    Prism.languages.python = Prism.languages.markup;
 
     /* **********************************************
        Begin prism-css.js
