@@ -35,7 +35,7 @@ toc:
 
 ### 3. Общая теория вероятностей
 
-- [3.1 Геометрическая вероятность](/neuro-networks-and-text-treatment/module_4_3-workshop-generating-names-and-slogans-using-RNN/step_2)
+- [3.1 Геометрическая вероятность](/stepik-probability_theory-3089/module-3_1-Geometric-probability)
 - [3.2 Аксиоматическое определение вероятности](/)
 - [3.3 Случайные величины](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
 - [3.4 Совместное распределение](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
