@@ -64,17 +64,48 @@ toc:
 ### модуль 2.5 шаг 11
 
 ---
+Допустим, Вы изучили частоты аллелей в 10 локусах в трех популяциях (AA, BB, CC). Результаты исследования приведены ниже:
+<img height="185" src="https://ucarecdn.com/77150a23-da6c-4970-9d94-66fef76313ee/" width="564"/>
+Рассчитайте значение D(seq1,seq2,seq3,seq4). Округлите ответ до сотых.
 
-{::nomarkdown}
-{% assign jupyter_path = 'assets/jupyter/genetics-step_2_5_11.ipynb' | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/blog.ipynb %}{% endcapture %}
-{% if notebook_exists == 'true' %}
-{% jupyter_notebook jupyter_path %}
-{% else %}
-  <p>Sorry, the notebook you are looking for does not exist.</p>
-{% endif %}
-{:/nomarkdown}
 
+```python
+n = 18
+seq1 = ['A', 'T', 'G', 'C', 'T', 'G', 'A', 'C', 'C', 'A', 'G', 'G', 'A', 'C', 'C', 'T', 'G', 'A']
+seq2 = ['A', 'T', 'G', 'C', 'A', 'G', 'G', 'C', 'C', 'T', 'G', 'G', 'A', 'A', 'C', 'T', 'G', 'A']
+seq3 = ['A', 'T', 'G', 'C', 'T', 'G', 'G', 'C', 'G', 'A', 'G', 'G', 'A', 'A', 'C', 'T', 'G', 'A']
+seq4 = ['A', 'T', 'G', 'C', 'A', 'G', 'A', 'C', 'C', 'T', 'G', 'G', 'A', 'C', 'C', 'T', 'G', 'A']
+```
+
+$$D=\frac{N_{ABBA}-N_{BABA}}{N_{ABBA}+N_{BABA}}$$
+
+
+
+```python
+abba = 0
+baba = 0
+for i in range(n):
+    if seq3[i]!=seq4[i]:
+        if seq1[i]==seq4[i] and seq2[i]==seq3[i]:
+            abba+=1
+        if seq1[i]==seq3[i] and seq2[i]==seq4[i]:
+            baba+=1
+print("abba=", abba)
+print("baba=", abba)
+D = (abba-baba)/(abba+baba)
+print("Ответ:", D)
+```
+
+    abba= 2
+    baba= 2
+    Ответ: 0.0
+
+
+
+```python
+
+```
+**Ответ**: 0.0
 
 ### модуль 2.5 шаг 12
 
