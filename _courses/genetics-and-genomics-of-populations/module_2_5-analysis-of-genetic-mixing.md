@@ -119,7 +119,7 @@ toc:
 
 Рассмотрите предложенный результат работы ADMIXTURE. Отметьте верные утверждения:
 <div style="text-align: center; margin-left:0;margin-right: 0;">
-<img src="https://ucarecdn.com/f994c7f1-c626-4398-a356-eb728a2419ee/" alt="drawing" style="width:200px;"/>
+<img src="https://ucarecdn.com/f994c7f1-c626-4398-a356-eb728a2419ee/" alt="drawing" style="width:450px;"/>
 </div>
 
 * [ ] Наибольший вклад в формирование сегодняшней популяции Ближнего Востока внесла предковая африканская популяция
