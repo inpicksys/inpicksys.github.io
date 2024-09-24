@@ -1,7 +1,7 @@
 ---
 permalink: "/stepik-probability_theory-3089/module-3_3_Random-variables"
 layout: post
-title: "3.2 Аксиоматическое определение вероятности"
+title: "3.3 Случайные величины"
 description: Теория Вероятностей
 category: stepik-probability_theory-3089
 importance: 1
@@ -75,14 +75,14 @@ $$P(\xi\leq-2)=F_{\xi}(-2)=4^{-2}=\frac{1}{16}$$ и $$P(-1<\xi<0)=\lim\limits_{x
 
 ---
 
-Функция распределения случайной величины $$\xi$$ имеет вид $$F_{\xi}=a+b \arctg{x}$$. Найдите параметры $$a$$ и $$b$$. В ответе укажите найденные значения в виде разделенных пробелом десятичных дробей (в случае необходимости округленных до трех знаков после запятой).
+Функция распределения случайной величины $$\xi$$ имеет вид $$F_{\xi}=a+b arctg x$$. Найдите параметры $$a$$ и $$b$$. В ответе укажите найденные значения в виде разделенных пробелом десятичных дробей (в случае необходимости округленных до трех знаков после запятой).
 
 **Решение**
 
 По свойствам функции распределения:
 
 $$
-1=\lim\limits_{x \to \infty}=\lim\limits_{x \to \infty}(a+b\arctg{x})=a+b\cdot\frac{\pi}{2};
+1=\lim\limits_{x \to \infty}=\lim\limits_{x \to \infty}(a+b arctg x)=a+b\cdot\frac{\pi}{2};
 
 $$
 
@@ -107,11 +107,12 @@ $$
 Напишем определение $$F_{\eta}$$:
 
 $$
-F_{\eta}=P(\eta\leq x)=P(3-2\xi\leq x)=P(2\xi\geq 3-x)=P(\xi\geq\frac{3-x}{2})=1-P(\xi<\frac{3-x}{2})\overset{*}{=} \\ \overset{*}{=}1-P(\xi\le\frac{3-x}{2})=1-F(\frac{3-x}{2}).
+\displaylines{
+F_{\eta}=P(\eta\leq x)=P(3-2\xi\leq x)=P(2\xi\geq 3-x)=P(\xi\geq\frac{3-x}{2})=1-P(\xi<\frac{3-x}{2})\overset{*}{=} \\ \overset{*}{=}1-P(\xi\le\frac{3-x}{2})=1-F(\frac{3-x}{2}).}
 
 $$
 
-В равенстве, помеченном звездочкой, мы воспользовались непрерывностью функции $$F$$.
+В равенстве, помеченном звездочкой, мы воспользовались непрерывностью функции $$F.$$
 
 **Ответ**
 1-F((3-x)/2)
@@ -130,9 +131,9 @@ F_{\xi}(x)=
 \left\{
 \begin{aligned}
 & 0 \space  \space при  \space  \space x<0, \\
-& \frac{x^2}{2}  \space  \space при 0\leq x \leq 1, \\
-& 1-\frac{(2-x)^2}{2} при 1< x \leq 2, \\
-& 1 при x>2. \\
+& \frac{x^2}{2}  \space  \space при \space \space 0\leq x \leq 1, \\
+& 1-\frac{(2-x)^2}{2} \space \space при \space \space  1< x \leq 2, \\
+& 1 \space \space при  \space \space x>2. \\
 \end{aligned}
 \right.
 

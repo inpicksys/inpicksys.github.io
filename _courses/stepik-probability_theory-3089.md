@@ -38,7 +38,7 @@ toc:
 - [3.1 Геометрическая вероятность](/stepik-probability_theory-3089/module-3_1-Geometric-probability)
 - [3.2 Аксиоматическое определение вероятности](/stepik-probability_theory-3089/module-3_2-Axiomatic-definition-of-probability)
 - [3.3 Случайные величины](/stepik-probability_theory-3089/module-3_3_Random-variables)
-- [3.4 Совместное распределение](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
+- [3.4 Совместное распределение](/stepik-probability_theory-3089/module-3_4-joint-distribution)
 - [3.5 Математическое ожидание](/)
 - [3.6 Моменты случайной величины](/)
 - [3.7 Сходимости последовательности случайных величин](/)
