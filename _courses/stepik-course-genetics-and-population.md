@@ -35,7 +35,7 @@ toc:
 
 - [3.1 Отбор и приспособленность](/stepik-course-genetics-and-population/module_3_1-selection-and-fitness)
 - [3.2 Аллель-частотный спектр и естественный отбор](/stepik-course-genetics-and-population/module_3_2-allele-frequency-spectrum-and-natural-selection)
-- [3.3 Поиск сигналов отбора в белок-кодирующих генах]()
+- [3.3 Поиск сигналов отбора в белок-кодирующих генах](/stepik-course-genetics-and-population/module_3_3-search-for-selection-signals-in-protein-coding-genes)
 - [3.4 Поиск сигналов отбора. LD-методы]()
 - [3.5 Заключение]()
 - [3.6 Бонус. Мини-проект]()

@@ -37,8 +37,8 @@ $$
 
 Так как вероятность того, что хотя бы одна из наших величин неположительна, равна нулю, то
 
-$$
-P(\frac{\pi}{6}<\xi\leq\frac{\pi}{3}, 0\leq\eta<\frac{\pi}{4})=P(\xi\leq\frac{\pi}{3},\eta<\frac{\pi}{4})-P(\xi\leq\frac{\pi}{6},\eta<\frac{\pi}{4})= \quad \quad \quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad \\ \quad\quad\quad\quad = F_{\xi,\eta}(\frac{\pi}{3},\frac{\pi}{4})-F_{\xi,\eta}(\frac{\pi}{6},\frac{\pi}{4})=\sin{\frac{\pi}{3}}\sin{\frac{\pi}{4}}-\sin{\frac{\pi}{6}}\sin{\frac{\pi}{4}}=\frac{\sqrt{6}-\sqrt{2}}{4}
+$$\displaylines{
+P(\frac{\pi}{6}<\xi\leq\frac{\pi}{3}, 0\leq\eta<\frac{\pi}{4})=P(\xi\leq\frac{\pi}{3},\eta<\frac{\pi}{4})-P(\xi\leq\frac{\pi}{6},\eta<\frac{\pi}{4})= \quad \quad \quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad \\ \quad\quad\quad\quad = F_{\xi,\eta}(\frac{\pi}{3},\frac{\pi}{4})-F_{\xi,\eta}(\frac{\pi}{6},\frac{\pi}{4})=\sin{\frac{\pi}{3}}\sin{\frac{\pi}{4}}-\sin{\frac{\pi}{6}}\sin{\frac{\pi}{4}}=\frac{\sqrt{6}-\sqrt{2}}{4}}
 
 $$
 
@@ -77,7 +77,8 @@ $$
 А вторую так:
 
 $$
-P(1,2\leq\xi<2,6;1,2\leq\eta < 2,6)= \\ =P(\xi<2,6;\eta<2,6)-P(\xi<1,2;\eta<2,6)-P(\xi<2,6;\eta<1,2)+P(\xi<1,2;\eta<1,2)= \\ = F(2,6)F(2,6)-F(1,2)F(2,6)-F(2,6)F(1,2)+F(1,2)F(1,2)= \\ = 0,8^2-2\cdot0,8\cdot0,1+0,1^2=0,49.
+\displaylines{
+P(1,2\leq\xi<2,6;1,2\leq\eta < 2,6)= \\ =P(\xi<2,6;\eta<2,6)-P(\xi<1,2;\eta<2,6)-P(\xi<2,6;\eta<1,2)+P(\xi<1,2;\eta<1,2)= \\ = F(2,6)F(2,6)-F(1,2)F(2,6)-F(2,6)F(1,2)+F(1,2)F(1,2)= \\ = 0,8^2-2\cdot0,8\cdot0,1+0,1^2=0,49.}
 
 $$
 
@@ -107,14 +108,14 @@ $$
 
 По определению функции распределения $$F_{\xi\eta}=P(\xi\eta\leq x)$$. Найдем вероятность нужного события по формуле полной вероятности:
 
-$$
-F_{\xi\eta}(x)=P(\xi\eta\leq x)=P(\xi\eta\leq x \space | \space \xi=0)P(\xi=0)+P(\xi\eta\leq x \space | \space \xi=1)P(\xi=1) = \\ = P(0\leq x | \xi=0)P(\xi=0)+P(\eta \leq x | \xi=1)P(\xi=1)=\bold{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+P(\eta\leq x)\cdot \frac{1}{2} = \\ = \bold{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+F_{\eta}(x)\cdot\frac{1}{2}.
-
+$$\displaylines{
+F_{\xi\eta}(x)=P(\xi\eta\leq x)=P(\xi\eta\leq x \space | \space \xi=0)P(\xi=0)+P(\xi\eta\leq x \space | \space \xi=1)P(\xi=1) = \\ = P(0\leq x | \xi=0)P(\xi=0)+P(\eta \leq x | \xi=1)P(\xi=1)=\bm{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+P(\eta\leq x)\cdot \frac{1}{2} = \\ = \bm{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+F_{\eta}(x)\cdot\frac{1}{2}.}
 $$
 
 **Ответ:**
 
 Piecewise( (0, (x <=0) ), (1/2+x/2, (x >0) & (x<=1) ), (1, x>1))
+
 
 
 ### модуль 3.4 шаг 7
@@ -123,9 +124,10 @@ Piecewise( (0, (x <=0) ), (1/2+x/2, (x >0) & (x<=1) ), (1, x>1))
 
 Пусть $$\xi$$ и $$\eta$$ — независимые случайные величины с функциями распределения $$F(x)=F_{\xi}(x)$$ и $$G(x)=F_{\eta}(x)$$. Найдите функцию распределения следующих случайных величин:
 
-* $$\zeta_1=\max{\{\xi, \eta\}}$$
-* $$\zeta_2=\min{\{\xi, \eta\}}$$
-* $$\zeta_3=\max{\{\xi, 2\eta\}}$$
+
+- $$\zeta_1=\max{\{\xi, \eta\}}$$
+- $$\zeta_2=\min{\{\xi, \eta\}}$$
+- $$\zeta_3=\max{\{\xi, 2\eta\}}$$
 
 В качестве ответа введите в систему выражение $$F_{\zeta_1}(x)*a+F_{\zeta_2}(x)*b+F_{\zeta_3}(x)*c$$.
 
@@ -133,9 +135,9 @@ Piecewise( (0, (x <=0) ), (1/2+x/2, (x >0) & (x<=1) ), (1, x>1))
 
 По определению
 
-$$
+$$\displaylines{
 F_{\zeta_1}(x)=P(\zeta_1\leq x)=P(\max{\{\xi,\eta\}}\leq x)=P(\xi \leq x)P(\eta \leq x)=F(x)G(x).
-
+}
 $$
 
 В предпоследнем равенстве мы воспользовались независимостью случайных величин $$\xi$$ и $$\eta$$.
@@ -143,15 +145,17 @@ $$
 Снова воспользуемся определением и независимостью случайных величин $$\xi$$ и $$\eta$$:
 
 $$
+\displaylines{
 F_{\zeta_2}(x)=P(\zeta_2 \leq x)=P(\min{\{\xi, \eta\}}\leq x)=1-P(\min{\{\xi,\eta\}}>x)=1-P(\xi>x,\eta>x)= \\ =1-P(\xi>x)P(\eta>x)=1-(1-P(\xi \leq x))(1-P(\xi\leq x))(1-P(\eta \leq x )) = \\ = 1-(1-F_{\xi}(x))(1-F_{\eta}(x))=F(x)+G(x)-F(x)G(x).
-
+}
 $$
 
 Аналогично
 
 $$
+\displaylines{
 F_{\zeta_3}(x)=P(\zeta_3 \leq{x})=P(\max{\{\xi, 2\eta \}} \leq{x})=P(\xi \leq{x}, 2\eta\leq{x})= \\ = P(\xi\leq{x},\eta\leq{\frac{x}{2}})=P(\xi\leq{x})P(\eta\leq{\frac{x}{2}})=F_{\xi}(x)F_{\eta}(\frac{x}{2})=F(x)G(\frac{x}{2}).
-
+}
 $$
 
 **Ответ:**
