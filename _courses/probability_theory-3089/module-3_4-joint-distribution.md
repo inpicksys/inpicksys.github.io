@@ -109,7 +109,7 @@ $$
 По определению функции распределения $$F_{\xi\eta}=P(\xi\eta\leq x)$$. Найдем вероятность нужного события по формуле полной вероятности:
 
 $$\displaylines{
-F_{\xi\eta}(x)=P(\xi\eta\leq x)=P(\xi\eta\leq x \space | \space \xi=0)P(\xi=0)+P(\xi\eta\leq x \space | \space \xi=1)P(\xi=1) = \\ = P(0\leq x | \xi=0)P(\xi=0)+P(\eta \leq x | \xi=1)P(\xi=1)=\bm{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+P(\eta\leq x)\cdot \frac{1}{2} = \\ = \bm{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+F_{\eta}(x)\cdot\frac{1}{2}.}
+F_{\xi\eta}(x)=P(\xi\eta\leq x)=P(\xi\eta\leq x \space | \space \xi=0)P(\xi=0)+P(\xi\eta\leq x \space | \space \xi=1)P(\xi=1) = \\ = P(0\leq x | \xi=0)P(\xi=0)+P(\eta \leq x | \xi=1)P(\xi=1)=\mathbf{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+P(\eta\leq x)\cdot \frac{1}{2} = \\ = \mathbf{1}_{[0,\infty)}(x)\cdot\frac{1}{2}+F_{\eta}(x)\cdot\frac{1}{2}.}
 $$
 
 **Ответ:**

@@ -87,10 +87,10 @@ toc:
 
 **Решение**
 
-Посчитать можно здесь [http://mkt.uab.es/mkt/mkt.asp](http://mkt.uab.es/mkt/mkt.asp)
+Посчитать можно здесь 
 
 Главное выбрать **SEE RESULTS: **Without any correction for divergence
-
+```
 > chimp
 > AGTACCATGAGAGGCGGTTGG
 > seq1
@@ -103,7 +103,7 @@ toc:
 > AGAACCATGAGAGACGGGTGG
 > seq5
 > AGAACAATAAGAGACGGGTGG
-
+```
 **Ответ**: 0.5,да
 
 
@@ -133,6 +133,6 @@ toc:
 
 Ответом является идентификатор набора генов (Gene Set Name). Поделитесь своим решением и его интерпретацией на вкладке "Решения". :)
 
-* ![](https://ucarecdn.com/952ba343-69e8-4547-9c39-e4e9b4ecc351/)
+![](https://ucarecdn.com/952ba343-69e8-4547-9c39-e4e9b4ecc351/)
 
-Ответ: REACTOME_RNA_POLYMERASE_II_TRANSCRIPTION
+**Ответ**: REACTOME_RNA_POLYMERASE_II_TRANSCRIPTION
