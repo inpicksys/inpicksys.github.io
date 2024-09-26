@@ -40,7 +40,7 @@ toc:
 - [3.3 Случайные величины](/stepik-probability_theory-3089/module-3_3_Random-variables)
 - [3.4 Совместное распределение](/stepik-probability_theory-3089/module-3_4-joint-distribution)
 - [3.5 Математическое ожидание](/stepik-probability_theory-3089/module-3_5-mathematical-expectation)
-- [3.6 Моменты случайной величины](/)
+- [3.6 Моменты случайной величины](/stepik-probability_theory-3089/module-3_6-moments-of-a-random-variable)
 - [3.7 Сходимости последовательности случайных величин](/)
 
 ### 4. Дискретные и непрерывные случайные величины
