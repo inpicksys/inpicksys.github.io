@@ -3,16 +3,17 @@ permalink: "/stepik-course-genetics-and-population/"
 layout: page
 title: "Stepik - генетика и геномика популяций"
 category: stepik
-description: Генетика популяций — одна из составляющих современной эволюционной теории, называемой синтетической теорией эволюции. [Описание](https://stepik.org/course/9182/info)
+description: Генетика популяций — одна из составляющих современной эволюционной теории, называемой синтетической теорией эволюции.
 img: assets/img/genetics-and-population_logo.png
 importance: 1
 giscus_comments: true
 toc:
   sidebar: right
-#thumbnail: assets/img/probability_course_logo.png
+thumbnail: assets/img/genetics-and-population_logo.png
 ---
 
 [Генетика и геномика популяций](https://stepik.org/course/9182/syllabus)
+[Описание](https://stepik.org/course/9182/info)
 
 ### 1. Генетическое разнообразие в популяции
 
