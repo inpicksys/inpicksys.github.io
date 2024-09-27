@@ -37,5 +37,5 @@ toc:
 - [3.2 Аллель-частотный спектр и естественный отбор](/stepik-course-genetics-and-population/module_3_2-allele-frequency-spectrum-and-natural-selection)
 - [3.3 Поиск сигналов отбора в белок-кодирующих генах](/stepik-course-genetics-and-population/module_3_3-search-for-selection-signals-in-protein-coding-genes)
 - [3.4 Поиск сигналов отбора. LD-методы](/stepik-course-genetics-and-population/module_3_4-search-for-selection-signals-LD-Methods)
-- [3.5 Заключение]()
-- [3.6 Бонус. Мини-проект]()
+- [3.5 Заключение](/stepik-course-genetics-and-population/module_3_5-conclusion)
+- [3.6 Бонус. Мини-проект](/stepik-course-genetics-and-population/module_3_6-bonus-mini-project)

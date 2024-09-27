@@ -19,13 +19,13 @@ toc:
 Для случайной величины $$\xi$$, имеющей функцию распределения
 
 $$
-_F_{\xi}(x)=\left\{
+F_{\xi}(x)=\left\{
 \begin{aligned}
 & 0, \quad \quad \quad \quad при \quad x< 0, \\
 & 2x-x^2, \quad \space \space при \quad 0 \leq x < 1, \\
 & 1, \quad  \quad \quad \quad \quad при \space \space x \geq 1. \\
 \end{aligned}
-\right._
+\right.
 
 $$
 

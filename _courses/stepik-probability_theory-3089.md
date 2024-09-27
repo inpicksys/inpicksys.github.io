@@ -41,11 +41,11 @@ toc:
 - [3.4 Совместное распределение](/stepik-probability_theory-3089/module-3_4-joint-distribution)
 - [3.5 Математическое ожидание](/stepik-probability_theory-3089/module-3_5-mathematical-expectation)
 - [3.6 Моменты случайной величины](/stepik-probability_theory-3089/module-3_6-moments-of-a-random-variable)
-- [3.7 Сходимости последовательности случайных величин](/)
+- [3.7 Сходимости последовательности случайных величин](/stepik-probability_theory-3089/module-3_7-convergence-of-a-sequence-of-random-variables)
 
 ### 4. Дискретные и непрерывные случайные величины
 
-- [4.1 Дискретные случайные величины](/neuro-networks-and-text-treatment/module_4_3-workshop-generating-names-and-slogans-using-RNN/step_2)
+- [4.1 Дискретные случайные величины](/stepik-probability_theory-3089/module-4_1-discrete-random-variables)
 - [4.2 Производящие функции](/)
 - [4.3 Лемма Бореля–Кантелли](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
 - [4.4 Непрерывное распределение](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
