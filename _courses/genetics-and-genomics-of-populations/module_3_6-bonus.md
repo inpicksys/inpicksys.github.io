@@ -1,5 +1,5 @@
 ---
-permalink: "/stepik-course-genetics-and-population/module_3_6-bonus-mini-project"
+permalink: "/stepik-course-genetics-and-population/module_3_6-bonus"
 layout: post
 title: "3.6 Бонус. Мини-проект"
 description: Генетика и геномика популяций
