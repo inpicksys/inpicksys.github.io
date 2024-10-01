@@ -46,8 +46,8 @@ toc:
 ### 4. Дискретные и непрерывные случайные величины
 
 - [4.1 Дискретные случайные величины](/stepik-probability_theory-3089/module-4_1-discrete-random-variables)
-- [4.2 Производящие функции](/)
-- [4.3 Лемма Бореля–Кантелли](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
+- [4.2 Производящие функции](/stepik-probability_theory-3089/module-4_2-generating-functions)
+- [4.3 Лемма Бореля–Кантелли](/stepik-probability_theory-3089/module-4_3-Borel–Cantelli-lemma)
 - [4.4 Непрерывное распределение](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
 - [4.5 Независимость](/)
 - [4.6 Математическое ожидание](/)
