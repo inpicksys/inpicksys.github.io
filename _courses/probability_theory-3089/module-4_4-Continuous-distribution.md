@@ -55,14 +55,14 @@ $$
 Если $$x\geqslant{1}$$, то неравенство $$\frac{1}{x}\leqslant1+\xi^2$$ всегда верно, поэтому $$F_{\eta}(x)=1$$. Рассмотрим теперь случай $$0<x<1$$:
 
 $$
-F_{\eta}(x)=P\left(\frac{1}{x}\leqslant{1+\xi^2}\right)=P\left(\frac{1}{x}-1\leqslant{\xi^2}\right)=1-P\left(\frac{1}{x}-1>\xi^2\right)= \\ = 1-P\left(-\sqrt{\frac{1}{x}-1}<\xi<\sqrt{\frac{1}{x}-1}\right)=1-\int\limits_{-\sqrt{\frac{1}{z}-1}}^{\sqrt{\frac{1}{z}-1}}\frac{dt}{\pi(1+t^2)}=1-\frac{2}{\pi}\arctg{\left(\sqrt{\frac{1}{x}-1} \right)}.
+\displaylines{F_{\eta}(x)=P\left(\frac{1}{x}\leqslant{1+\xi^2}\right)=P\left(\frac{1}{x}-1\leqslant{\xi^2}\right)=1-P\left(\frac{1}{x}-1>\xi^2\right)= \\ = 1-P\left(-\sqrt{\frac{1}{x}-1}<\xi<\sqrt{\frac{1}{x}-1}\right)=1-\int\limits_{-\sqrt{\frac{1}{z}-1}}^{\sqrt{\frac{1}{z}-1}}\frac{dt}{\pi(1+t^2)}=1-\frac{2}{\pi}arctg{\left(\sqrt{\frac{1}{x}-1} \right)}}.
 
 $$
 
 Тогда $$p_{\eta}(x)=F_{\eta}^{'}$$, что равно нулю при $$x\leqslant{0}$$ и $$x\geqslant{0}$$, а при $$0<x<1$$
 
 $$
-p_{\eta}=F_{\eta}^{'}=\left(1-\frac{2}{\pi}\arctg{\left(\sqrt{\frac{1}{x}-1} \right)} \right)^{'}=\frac{1}{\pi\sqrt{x(1-x)}}.
+p_{\eta}=F_{\eta}^{'}=\left(1-\frac{2}{\pi}arctg{\left(\sqrt{\frac{1}{x}-1} \right)} \right)^{'}=\frac{1}{\pi\sqrt{x(1-x)}}.
 
 $$
 
