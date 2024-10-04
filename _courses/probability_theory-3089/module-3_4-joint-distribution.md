@@ -38,7 +38,7 @@ $$
 Так как вероятность того, что хотя бы одна из наших величин неположительна, равна нулю, то
 
 $$\displaylines{
-P(\frac{\pi}{6}<\xi\leq\frac{\pi}{3}, 0\leq\eta<\frac{\pi}{4})=P(\xi\leq\frac{\pi}{3},\eta<\frac{\pi}{4})-P(\xi\leq\frac{\pi}{6},\eta<\frac{\pi}{4})= \quad \quad \quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad \\ \quad\quad\quad\quad = F_{\xi,\eta}(\frac{\pi}{3},\frac{\pi}{4})-F_{\xi,\eta}(\frac{\pi}{6},\frac{\pi}{4})=\sin{\frac{\pi}{3}}\sin{\frac{\pi}{4}}-\sin{\frac{\pi}{6}}\sin{\frac{\pi}{4}}=\frac{\sqrt{6}-\sqrt{2}}{4}}
+P(\frac{\pi}{6}<\xi\leq\frac{\pi}{3}, 0\leq\eta<\frac{\pi}{4})=P(\xi\leq\frac{\pi}{3},\eta<\frac{\pi}{4})-P(\xi\leq\frac{\pi}{6},\eta<\frac{\pi}{4})= \quad \quad \quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad \\ \quad\quad\quad\quad = F_{\xi,\eta}(\frac{\pi}{3},\frac{\pi}{4})-F_{\xi,\eta}(\frac{\pi}{6},\frac{\pi}{4})=\sin{\frac{\pi}{3}}\sin{\frac{\pi}{4}}-\sin{\frac{\pi}{6}}\sin{\frac{\pi}{4}}= \\ = \frac{\sqrt{6}-\sqrt{2}}{4}}
 
 $$
 

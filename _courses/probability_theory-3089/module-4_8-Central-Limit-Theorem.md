@@ -23,14 +23,14 @@ toc:
 Пусть $$n=10000$$. Рассмотрим случайные величины $$\xi_k$$, равные ошибке округления *k*-го числа и $$S_n=\xi_1+\xi_2+...+\xi_n$$. Понятно, что $$\mathbb{E}\xi_{k}=0$$ и, значит, $$\mathbb{E}S_n=0$$. Найдем дисперсию
 
 $$
-\mathbb{D}\xi_k=\mathbb{E}\xi_k^2=\int\limits_{-\infty}^{\infty}t^2\cdot{10^m}\bm{1}_{[-\frac{1}{2}\cdot{10^{-m}}, \frac{1}{2}\cdot{10^{-m}}]}(t)dt=10^m\int\limits_{-\frac{1}{2}\cdot{10^{-m}}}^{\frac{1}{2}\cdot{10^{-m}}}t^2dt=10^m\cdot{\frac{t^3}{3}}\bigg|_{-\frac{1}{2}\cdot{10^{-m}}}^{\frac{1}{2}\cdot{10^{-m}}}=\frac{1}{12}\cdot{10^{-2m}}.
+\displaylines{\mathbb{D}\xi_k=\mathbb{E}\xi_k^2=\int\limits_{-\infty}^{\infty}t^2\cdot{10^m}\mathbf{1}_{[-\frac{1}{2}\cdot{10^{-m}}, \frac{1}{2}\cdot{10^{-m}}]}(t)dt=10^m\int\limits_{-\frac{1}{2}\cdot{10^{-m}}}^{\frac{1}{2}\cdot{10^{-m}}}t^2dt=10^m\cdot{\frac{t^3}{3}}\bigg|_{-\frac{1}{2}\cdot{10^{-m}}}^{\frac{1}{2}\cdot{10^{-m}}}=\frac{1}{12}\cdot{10^{-2m}}.}
 
 $$
 
 По центральной предельной теореме для $$S_n$$ имеем
 
 $$
-P(\lvert{S_n}\rvert<a)=P\left(\bigg|\frac{S_n-0}{\sqrt{n}\sqrt{\frac{1}{12}\cdot{10^{-2m}}}}\bigg| <  \frac{a}{\sqrt{n}\sqrt{\frac{1}{12}\cdot{10^{-2m}}}}  \right) \approx 2\Phi_0\left(\frac{a}{100\sqrt{\frac{1}{12}\cdot{10^{-2m}}}} \right)= \\ = 2\Phi_0(2\sqrt{3}\cdot{10^{m-2}}\cdot{a}) \approx 0,996.
+\displaylines{P(\lvert{S_n}\rvert<a)=P\left(\bigg|\frac{S_n-0}{\sqrt{n}\sqrt{\frac{1}{12}\cdot{10^{-2m}}}}\bigg| <  \frac{a}{\sqrt{n}\sqrt{\frac{1}{12}\cdot{10^{-2m}}}}  \right) \approx 2\Phi_0\left(\frac{a}{100\sqrt{\frac{1}{12}\cdot{10^{-2m}}}} \right)= \\ = 2\Phi_0(2\sqrt{3}\cdot{10^{m-2}}\cdot{a}) \approx 0,996.}
 
 $$
 
@@ -52,7 +52,7 @@ $$
 Пусть $$n=10000$$. Рассмотрим случайные величины $$\xi_k$$, равные весу *k*-го по счету взвешенного муравья и $$ S_n=\xi_1+\xi_2+...+\xi_n$$. Пусть $$a$$ — средний вес муравья за весь период наблюдений. Тогда $$ \mathbb{E}\xi_k=a$$ и $$\mathbb{E}S_n=na$$. Поскольку среднеквадратическое отклонение веса муравьев равно 2, $$\mathbb{D}\xi_k=2^2=4$$ и $$ \mathbb{D}S_n=4n$$. По центральной предельной теореме для $$ S_n$$ имеем
 
 $$
-P\left(\frac{S_n}{n}-a>0.05 \right)=P\left(\frac{S_n-na}{2\sqrt{n}}>\frac{0.05\sqrt{n}}{2} \right) \approx 1-\Phi(0.025\sqrt{n}) = \\ =1-\Phi(2.5)=\frac{1}{2}-\Phi_0(2.5) \approx 0.00621.
+\displaylines{P\left(\frac{S_n}{n}-a>0.05 \right)=P\left(\frac{S_n-na}{2\sqrt{n}}>\frac{0.05\sqrt{n}}{2} \right) \approx 1-\Phi(0.025\sqrt{n}) = \\ =1-\Phi(2.5)=\frac{1}{2}-\Phi_0(2.5) \approx 0.00621.}
 
 $$
 
@@ -72,14 +72,14 @@ $$
 Рассмотрим случайные величины $$ \eta_k=\frac{\pi}{2}\cos{\xi_k}$$. Тогда $$ I_n=\frac{1}{n}(\eta_1+\eta_2+...+\eta_n)=\frac{S_n}{n}$$, где $$ S_n=\eta_1+\eta_2+...+\eta_n$$. По линейности математического ожидания и формуле его вычисления для функций от случайных величин
 
 $$
-\mathbb{E}\eta_k=\frac{\pi}{2}\int\limits_{-\infty}^{\infty}\cos{t}\cdot{\frac{2}{\pi}\bm{1}_{[0,\frac{\pi}{2}]}}(t)dt=\int\limits_{0}^{\frac{\pi}{2}}\cos{t}dt=1=I.
+\mathbb{E}\eta_k=\frac{\pi}{2}\int\limits_{-\infty}^{\infty}\cos{t}\cdot{\frac{2}{\pi}\mathbf{1}_{[0,\frac{\pi}{2}]}}(t)dt=\int\limits_{0}^{\frac{\pi}{2}}\cos{t}dt=1=I.
 
 $$
 
 Поэтому $$\mathbb{E}S_n=nI$$. Аналогично
 
 $$
-\mathbb{E}\eta_k^2=\left( \frac{\pi}{2} \right)^2 \int\limits_{-\infty}^{\infty}\cos^2{t}\cdot{\frac{2}{\pi}\bm{1}_{[0,\frac{\pi}{2}]}}(t)dt=\frac{\pi}{2}\int\limits_{0}^{\frac{\pi}{2}}\cos^2{t}dt=\frac{\pi^2}{8}.
+\mathbb{E}\eta_k^2=\left( \frac{\pi}{2} \right)^2 \int\limits_{-\infty}^{\infty}\cos^2{t}\cdot{\frac{2}{\pi}\mathbf{1}_{[0,\frac{\pi}{2}]}}(t)dt=\frac{\pi}{2}\int\limits_{0}^{\frac{\pi}{2}}\cos^2{t}dt=\frac{\pi^2}{8}.
 
 $$
 

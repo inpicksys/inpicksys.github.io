@@ -69,7 +69,7 @@ $$
 $$
 
 $$
-\mathbb{D}\eta=-\varphi_{\eta}^{''}(0)+(\varphi_{\eta}^{'}(0))^2=-\left(npie^{it}(1-p+pe^{it})^{n-1} \right)^{'}\bigg|_{t=0}+(inp)^2= \\ = np(npe^{2it}-pe^{it}+e^{it})(1-p+pe^{it})^{n-2}\bigg|_{t=0}-n^2p^2=np(np-p+1)-n^2p^2=np(1-p).
+\displaylines{\mathbb{D}\eta=-\varphi_{\eta}^{''}(0)+(\varphi_{\eta}^{'}(0))^2=-\left(npie^{it}(1-p+pe^{it})^{n-1} \right)^{'}\bigg|_{t=0}+(inp)^2= \\ = np(npe^{2it}-pe^{it}+e^{it})(1-p+pe^{it})^{n-2}\bigg|_{t=0}-n^2p^2=np(np-p+1)-n^2p^2=np(1-p)}.
 
 $$
 
@@ -93,15 +93,14 @@ $$
 
 По определению
 
-$$
-\varphi_{\xi}(t)=\mathbb{E}e^{it\xi}=\sum\limits_{k=1}^{\infty}e^{itk}P(\xi=k)=\sum\limits_{k=1}^{\infty}e^{itk}p(1-p)^{k-1}=\frac{p}{1-p}\sum\limits_{k=1}^{\infty}e^{itk}(1-p)^k= \\ = \frac{p}{1-p}\sum\limits_{k=1}^{\infty}((1-p)e^{it})^k=\frac{p}{1-p}\cdot{\frac{(1-p)e^it}{1-(1-p)e^{it}}}=\frac{pe^{it}}{1-(1-p)e^{it}}.
+$$\displaylines{\varphi_{\xi}(t)=\mathbb{E}e^{it\xi}=\sum\limits_{k=1}^{\infty}e^{itk}P(\xi=k)=\sum\limits_{k=1}^{\infty}e^{itk}p(1-p)^{k-1}=\frac{p}{1-p}\sum\limits_{k=1}^{\infty}e^{itk}(1-p)^k= \\ = \frac{p}{1-p}\sum\limits_{k=1}^{\infty}((1-p)e^{it})^k=\frac{p}{1-p}\cdot{\frac{(1-p)e^it}{1-(1-p)e^{it}}}=\frac{pe^{it}}{1-(1-p)e^{it}}.}
 
 $$
 
 Аналогично
 
 $$
-\varphi_{\eta}(t)=\mathbb{E}e^{it\eta}=\sum\limits_{k=0}^{\infty}e^{itk}P(\eta=k)=\sum\limits_{k=0}^{\infty}e^{itk}\frac{\lambda^k}{k!}e^{-\lambda} = \\ = e^{-\lambda}\sum\limits_{k=0}^{\infty}\frac{(e^{it}\lambda)^k}{k!}=e^{-\lambda}\exp(\lambda(e^{it}-1)).
+\displaylines{\varphi_{\eta}(t)=\mathbb{E}e^{it\eta}=\sum\limits_{k=0}^{\infty}e^{itk}P(\eta=k)=\sum\limits_{k=0}^{\infty}e^{itk}\frac{\lambda^k}{k!}e^{-\lambda} = \\ = e^{-\lambda}\sum\limits_{k=0}^{\infty}\frac{(e^{it}\lambda)^k}{k!}=e^{-\lambda}\exp(\lambda(e^{it}-1)).}
 
 $$
 
@@ -121,7 +120,7 @@ $$
 По определению
 
 $$
-\varphi_{\xi}(t)=\mathbb{E}e^{it\xi}=\int\limits_{-\infty}^{\infty}e^{itx}p_{\xi}(x)dx=\int\limits_{-\infty}^{\infty}e^{itx}\cdot\frac{e^{-\lvert{x}\rvert}}{2}dx=\frac{1}{2}\left( \int\limits_{0}^{\infty} e^{itx}e^{-x}dx+\int\limits_{-\infty}^{0} e^{itx}e^{x}dx\right) = \\ =\frac{1}{2}\left(\int\limits_{0}^{\infty}e^{itx}e^{-x}dx+\int\limits_{0}^{\infty}e^{-itx}e^{-x}dx \right) = \frac{1}{2}\left( \frac{e^{itx}e^{-x}}{it-1}+\frac{e^{-itx}e^{-x}}{-it-1}\right)\bigg|_{x=0}^{x=\infty} = \\ = \frac{1}{2}\left(\frac{1}{1-it}+\frac{1}{1+it} \right)=\frac{1}{1+t^2}.
+\displaylines{\varphi_{\xi}(t)=\mathbb{E}e^{it\xi}=\int\limits_{-\infty}^{\infty}e^{itx}p_{\xi}(x)dx=\int\limits_{-\infty}^{\infty}e^{itx}\cdot\frac{e^{-\lvert{x}\rvert}}{2}dx=\frac{1}{2}\left( \int\limits_{0}^{\infty} e^{itx}e^{-x}dx+\int\limits_{-\infty}^{0} e^{itx}e^{x}dx\right) = \\ =\frac{1}{2}\left(\int\limits_{0}^{\infty}e^{itx}e^{-x}dx+\int\limits_{0}^{\infty}e^{-itx}e^{-x}dx \right) = \frac{1}{2}\left( \frac{e^{itx}e^{-x}}{it-1}+\frac{e^{-itx}e^{-x}}{-it-1}\right)\bigg|_{x=0}^{x=\infty} = \\ = \frac{1}{2}\left(\frac{1}{1-it}+\frac{1}{1+it} \right)=\frac{1}{1+t^2}.}
 
 $$
 
@@ -175,7 +174,7 @@ binomial(m+n, k)*(1-p)^(m+n-k)*p^k
 Поскольку случайные величины $$\xi_k$$ независимы $$\varphi_{\xi}(t)=\left(\frac{1}{1-it}\right)^n$$. По 6 свойству характеристических функций
 
 $$
-\mathbb{E}\xi^k=(-i)^k\varphi_{\xi}^{(k)}(0)=(-i)^k\left(\left( \frac{1}{1-it}\right)^n \right)^{(k)}\bigg|_{t=0}= \\ =(-i)^ki^kn(n+1)...(n+k-1)\left(\frac{1}{1-it} \right)^{n-k}\bigg|_{t=0}=n(n+1)...(n+k-1)=\frac{(n+k-1)!}{(n-1)!}.
+\displaylines{\mathbb{E}\xi^k=(-i)^k\varphi_{\xi}^{(k)}(0)=(-i)^k\left(\left( \frac{1}{1-it}\right)^n \right)^{(k)}\bigg|_{t=0}= \\ =(-i)^ki^kn(n+1)...(n+k-1)\left(\frac{1}{1-it} \right)^{n-k}\bigg|_{t=0}=n(n+1)...(n+k-1)=\frac{(n+k-1)!}{(n-1)!}.}
 
 $$
 

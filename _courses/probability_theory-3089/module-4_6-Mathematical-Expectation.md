@@ -298,7 +298,8 @@ $$
 Тогда вероятность случайного события $$\xi\leqslant{\eta}$$ есть интеграл от плотности $$p_{\xi,\eta}(x,y)$$ по множеству $$x\leqslant{y}$$. Следовательно,
 
 $$
-P(\xi\leqslant{\eta})=\int\limits_{-\infty}^{\infty}\int\limits_{-\infty}^{y}p_{\xi, \eta}(x,y)dxdy=\int\limits_{0}^{\infty}\int\limits_{0}^{y}ae^{-ax}\cdot{be^{-by}}dxdy=ab\int\limits_{0}^{\infty}e^{-by}\int\limits_{0}^{y}e^{-ax}dxdy= \\ = ab\int\limits_{0}^{\infty}e^{-by}\left(\frac{1}{a}(1-e^{-ay}) \right)dx=b\int\limits_{0}^{\infty}\left(e^{-by}-e^{-(a+b)y} \right)dy= \\ = b\left( \frac{e^{-by}}{-b}-\frac{e^{-(a+b)y}}{-(a+b)} \right)\bigg|_{y=0}^{y=\infty}=b\left(\frac{1}{b}-\frac{1}{a+b} \right)=1-\frac{b}{a+b}=\frac{a}{a+b}.
+\displaylines{
+P(\xi\leqslant{\eta})=\int\limits_{-\infty}^{\infty}\int\limits_{-\infty}^{y}p_{\xi, \eta}(x,y)dxdy=\int\limits_{0}^{\infty}\int\limits_{0}^{y}ae^{-ax}\cdot{be^{-by}}dxdy=ab\int\limits_{0}^{\infty}e^{-by}\int\limits_{0}^{y}e^{-ax}dxdy= \\ = ab\int\limits_{0}^{\infty}e^{-by}\left(\frac{1}{a}(1-e^{-ay}) \right)dx=b\int\limits_{0}^{\infty}\left(e^{-by}-e^{-(a+b)y} \right)dy= \\ = b\left( \frac{e^{-by}}{-b}-\frac{e^{-(a+b)y}}{-(a+b)} \right)\bigg|_{y=0}^{y=\infty}=b\left(\frac{1}{b}-\frac{1}{a+b} \right)=1-\frac{b}{a+b}=\frac{a}{a+b}}.
 
 $$
 
