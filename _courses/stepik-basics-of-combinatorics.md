@@ -14,9 +14,9 @@ toc:
 1. Элементарная комбинаторика - I
 
    - [1.1 Основные понятия теории множеств](/stepik-basics-of-combinatorics/module_1_1-Basic-concepts-of-set-theory)
-   - [1.2 Основные правила перечислительной комбинаторики](/stepik-course-combinatorics-basics/)
-   - [1.3 Принцип Дирихле](/stepik-course-combinatorics-basics/)
-   - [1.4 K-сочетания из n-элементов](/stepik-course-combinatorics-basics/)
+   - [1.2 Основные правила перечислительной комбинаторики](/stepik-basics-of-combinatorics/module_1_2-Basic-rules-of-enumerative-combinatorics)
+   - [1.3 Принцип Дирихле](/stepik-basics-of-combinatorics/module_1_3-Dirichlet-principle)
+   - [1.4 K-сочетания из n-элементов](/stepik-basics-of-combinatorics/module_1_4-K-combinations-of-n-elements)
 
 2. Элементарная комбинаторика - II
    - [2.1 k-перестановки из n элементов](/stepik-course-combinatorics-basics/)
