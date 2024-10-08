@@ -19,7 +19,7 @@ toc:
    - [1.4 K-сочетания из n-элементов](/stepik-basics-of-combinatorics/module_1_4-K-combinations-of-n-elements)
 
 2. Элементарная комбинаторика - II
-   - [2.1 k-перестановки из n элементов](/stepik-course-combinatorics-basics/)
+   - [2.1 k-перестановки из n элементов](/stepik-basics-of-combinatorics/module_2_1-k-permutations-of-n-elements)
    - [2.2 Урновые схемы и схемы раскладки по ящикам](/stepik-course-combinatorics-basics/)
    - [2.3 Подсчет отображений конечных множеств](/stepik-course-combinatorics-basics/)
    - [2.4 Перестановки с повторениями. Числа Стирлинга](/stepik-course-combinatorics-basics/)
