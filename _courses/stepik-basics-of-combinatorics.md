@@ -20,7 +20,7 @@ toc:
 
 2. Элементарная комбинаторика - II
    - [2.1 k-перестановки из n элементов](/stepik-basics-of-combinatorics/module_2_1-k-permutations-of-n-elements)
-   - [2.2 Урновые схемы и схемы раскладки по ящикам](/stepik-course-combinatorics-basics/)
+   - [2.2 Урновые схемы и схемы раскладки по ящикам](/stepik-course-combinatorics-basics/module_2_2-Urn-diagrams-and-box-layout-diagrams)
    - [2.3 Подсчет отображений конечных множеств](/stepik-course-combinatorics-basics/)
    - [2.4 Перестановки с повторениями. Числа Стирлинга](/stepik-course-combinatorics-basics/)
 3. Производящие функции и рекуррентные соотношения
