@@ -12,4 +12,4 @@ related_posts: true
 
 https://habr.com/ru/articles/274975/ - хорошая статья про метод МоМоне карло
 
-- [ ] [Statistics Kingdom](https://www.statskingdom.com/distribution-calculator.html) - полезный ресур
+- [ ] [Statistics Kingdom](https://www.statskingdom.com/distribution-calculator.html) - полезный ресурc
