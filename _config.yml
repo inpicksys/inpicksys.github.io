@@ -267,7 +267,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-download
+
 
 # Sitemap settings
 defaults:
