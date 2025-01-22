@@ -12,19 +12,19 @@ toc:
 ---
 
 ### Деплоймент joomla 5
-<p style="text-align: center;">
+<p style="text-align:justify; text-justify:inter-word;">
 В процессе развития любого проекта возникает необходимость автоматизации процесса деплоймента. В том числе и для сайтов разработанных на основе широко распространённых CMS (**content managment system**). 
 Рассмотрим процесс деплоймента joomla 5x сайта.
 </p>
-<p style="text-align: center;">
+<p style="text-align:justify; text-justify:inter-word;">
 Предполагается, что сайт находится под git и уже существует github-репозиторий.
 </p>
-<p style="text-align: center;">
+<p style="text-align:justify; text-justify:inter-word;">
 В качестве сервера предполагается любая виртуальная машина (ubuntu).
 </p>
-<p style="text-align: center;">
+<p style="text-align:justify; text-justify:inter-word;">
 Для начала создайте папку в корне вашего проекта
-** .github ** в ней папку **workflows** и в последней файл ** deploy.yml ** (название не имеет значения, расширение имеет значение). 
+<b>.github</b> в ней папку <b>workflows</b> и в последней файл <b>deploy.yml</b> (название не имеет значения, расширение имеет значение). 
 </p>
 
 ![][image_ref_ib16h6hg]
