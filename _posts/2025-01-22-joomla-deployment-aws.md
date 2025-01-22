@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Деплоймент joomla 5. Github actions
-date: 2025-01-22 15:00:00
-description:
+date: 2025-01-22 00:00:00
+description: Описание github actions деплоймента для joomla5
 tags: joomla aws deployment
 categories: разработка joomla AWS
 related_posts: true
