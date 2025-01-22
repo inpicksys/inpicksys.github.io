@@ -4,12 +4,12 @@ title: Решение задач по курсу теории вероятнос
 date: 2024-06-30 17:57:00
 description:
 tags: probability stepik course Вероятность курсы
-categories: Курсы Теория Вероятностей
+categories: 'Курсы' 'Теория Вероятностей'
 related_posts: true
 ---
 
 ### Полезные ссылки
 
-https://habr.com/ru/articles/274975/ - хорошая статья про метод МоМоне карло
+https://habr.com/ru/articles/274975/ - хорошая статья про метод Монте Карло
 
-- [ ] [Statistics Kingdom](https://www.statskingdom.com/distribution-calculator.html) - полезный ресурc
+- [ ] [Statistics Kingdom](https://www.statskingdom.com/distribution-calculator.html) - полезный ресурс
