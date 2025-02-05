@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Teaching
+title: Обучение
 permalink: /teaching/
-description: Solving tasks of the courses
+description: Решение задач из курсов
 nav: true
-nav_order: 1
+nav_order: 3
 display_categories: [stepik]
-horizontal: true
+horizontal: false
 ---
 
 <!-- pages/teaching.md -->

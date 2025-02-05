@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
-description: M.N. Strutinsky publications 
+title: Публикации
+description: Публикации Струтинского М.Н. 
 nav: true
 nav_order: 2
 ---
