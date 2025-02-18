@@ -4,7 +4,7 @@ title: Обучение
 permalink: /teaching/
 description: Решение задач из курсов
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [stepik]
 horizontal: false
 ---
