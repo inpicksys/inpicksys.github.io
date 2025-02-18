@@ -24,7 +24,7 @@ Joomla 3.x версия(и) - долго использовалась многи
 Далее будут представлены несколько mysql-сриптов с описаниями для импорта контента в joomla.
 </p>
 
-
+## assets
  - 1. Таблица **\<prefix\>\_assets** хранит объекты используемые статъями (articles) и прочими типами контента. Если данные импортируются не из joomla - этот шаг можно пропустить.
  
 ```sql
@@ -37,7 +37,7 @@ SELECT *
 FROM <old_db>.<old_prefix>_assets
 
 ```
-
+## categories
 - 2. Таблица **\<prefix\>\_categories** хранит категории ваших публикаций.
 
 ```sql
@@ -50,6 +50,7 @@ SELECT *
 FROM <old_db>.<old_prefix>_categories
 
 ```
+## content
 
 - 3. Таблица **\<prefix\>\_content** - собственно основная таблица где хранятся статьи (article) и посты (posts) в joomla. 
 
@@ -74,6 +75,8 @@ where name="your_admin_name"
 ```
 После выполнения этих скриптов (успешного) ваши статьи будут в новой joomla, но не будут видны. 
 Вместо *Replace* можно использовать *Insert* (даже нужно, чтобы не перетереть уже существующий контент).
+
+## workflow
 
 4. В joomla 5 появились новые таблицы workflow\_\*. Для того, чтобы можно было увидеть в админке joomla ваш контент, необходимо обновить/заполнить таблицу workflow_associations:
 - [Copying com_content table between databases](https://forum.joomla.org/viewtopic.php?t=998513)
@@ -108,6 +111,7 @@ SELECT id, 1, "com_content.article"
 FROM <old_db>.<old_prefix>_content
 
 ```
+## users
 
 5. Для копирования пользователей можно воспользоваться: [copy joomla3.10 user tables to joomla 5](https://forum.joomla.org/viewtopic.php?t=1006236)
 
