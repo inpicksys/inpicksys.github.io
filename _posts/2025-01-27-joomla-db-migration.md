@@ -25,10 +25,10 @@ Joomla 3.x версия(и) - долго использовалась многи
 </p>
 
 ## assets
- - 1. Таблица **\<prefix\>\_assets** хранит объекты используемые статъями (articles) и прочими типами контента. Если данные импортируются не из joomla - этот шаг можно пропустить.
+ Таблица **\<prefix\>\_assets** хранит объекты используемые статъями (articles) и прочими типами контента. Если данные импортируются не из joomla - этот шаг можно пропустить.
  
 ```sql
-# assets
+## 1. assets
 
 ALTER TABLE <new_db>.<prefix>_assets
 disable keys;
@@ -37,8 +37,9 @@ SELECT *
 FROM <old_db>.<old_prefix>_assets
 
 ```
-## categories
-- 2. Таблица **\<prefix\>\_categories** хранит категории ваших публикаций.
+## 2. categories
+
+Таблица **\<prefix\>\_categories** хранит категории ваших публикаций.
 
 ```sql
 
@@ -50,9 +51,9 @@ SELECT *
 FROM <old_db>.<old_prefix>_categories
 
 ```
-## content
+## 3. content
 
-- 3. Таблица **\<prefix\>\_content** - собственно основная таблица где хранятся статьи (article) и посты (posts) в joomla. 
+Таблица **\<prefix\>\_content** - собственно основная таблица где хранятся статьи (article) и посты (posts) в joomla. 
 
 ```sql
 
@@ -76,9 +77,9 @@ where name="your_admin_name"
 После выполнения этих скриптов (успешного) ваши статьи будут в новой joomla, но не будут видны. 
 Вместо *Replace* можно использовать *Insert* (даже нужно, чтобы не перетереть уже существующий контент).
 
-## workflow
+## 4. workflow\*
 
-4. В joomla 5 появились новые таблицы workflow\_\*. Для того, чтобы можно было увидеть в админке joomla ваш контент, необходимо обновить/заполнить таблицу workflow_associations:
+В joomla 5 появились новые таблицы workflow\_\*. Для того, чтобы можно было увидеть в админке joomla ваш контент, необходимо обновить/заполнить таблицу workflow_associations:
 - [Copying com_content table between databases](https://forum.joomla.org/viewtopic.php?t=998513)
 - [How to move articles from joomla 3.10 to joomla 4.1Topic is solved](https://forum.joomla.org/viewtopic.php?t=993253#p3658054)
 Пример из последней ссылки
@@ -111,9 +112,9 @@ SELECT id, 1, "com_content.article"
 FROM <old_db>.<old_prefix>_content
 
 ```
-## users
+## 5. users
 
-5. Для копирования пользователей можно воспользоваться: [copy joomla3.10 user tables to joomla 5](https://forum.joomla.org/viewtopic.php?t=1006236)
+Для копирования пользователей можно воспользоваться: [copy joomla3.10 user tables to joomla 5](https://forum.joomla.org/viewtopic.php?t=1006236)
 
 Есть и другие типы контента, которые можно сохранить/перенести/импортировать. Но они не так критичны и много зависит от компонентов, которые выиспользуете, и шаблона joomla.
 
