@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: О проекте
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Affiliations</a>. Пишите письма. С любовью. 
 
 profile:
   align: right

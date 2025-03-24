@@ -26,7 +26,7 @@ toc:
 3. Производящие функции и рекуррентные соотношения
    - [3.1 Рекуррентные соотношения](/stepik-basics-of-combinatorics/module_3_1-Recurrence-relations)
    - [3.2 Производящие функции](/stepik-basics-of-combinatorics/module_3_2-Generating-functions)
-   - [3.3 Решение рекуррентных соотношений с помощью производящих функций](/stepik-course-combinatorics-basics/)
+   - [3.3 Решение рекуррентных соотношений с помощью производящих функций](/stepik-basics-of-combinatorics/module_3_3-Solving-recurrence-relations-using-generating-functions)
    - [3.4 Числа Каталана](/stepik-course-combinatorics-basics/)
 4. Простейшие операции над производящими функциями
    - [4.1 Комбинаторный смысл операций над производящими функциями](/neuro-networks-and-text-treatment/module_4_3-workshop-generating-names-and-slogans-using-RNN/step_2)
