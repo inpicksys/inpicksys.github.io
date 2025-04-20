@@ -12,6 +12,13 @@
             {% else %}
               <td class="list-group-category-icon"></td>
             {% endif %}
+            {% if content.logo %}
+                  <td class="list-group-category-icon">
+                      <img src="{{ content.logo }}"></img>
+                  </td>
+              {% else %}
+                  <td class="list-group-category-icon"></td>
+              {% endif %}
             <!-- Calculate colspan number for category title -->
             {% assign i = 1 %}
             {% for item in content.items %}
