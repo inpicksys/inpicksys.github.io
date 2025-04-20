@@ -268,10 +268,10 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-  - jekyll-gist
-  - jekyll-coffeescript
-  - jekyll-assets
-  - jekyll-admin
+  #- jekyll-gist
+  #- jekyll-coffeescript
+  #- jekyll-assets
+  #- jekyll-admin
 
 # Sitemap settings
 defaults:
