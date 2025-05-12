@@ -92,6 +92,7 @@
       "name": "WebRTC - Create Zoom Clone Video Group Call Application",
       "date": "2024-09-101",
       "issuer": "Udemy",
+      "icon": "fa-solid fa-check",
       "url": "https://www.udemy.com/certificate/UC-2c363f3f-577f-44f5-928a-b95ca3c72208/",
       "logo": "/assets/img/logo-udemy.svg"
     },
@@ -100,13 +101,14 @@
       "date": "2023-10-11",
       "issuer": "Udemy",
       "url": "https://www.udemy.com/certificate/UC-5ca0064e-6095-4da1-829f-ea07c8973788/",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-check",
       "logo": "/assets/img/logo-udemy.svg"
     },
     {
       "name": "Основы перечислительной комбинаторики",
       "date": "2020-08-01",
       "issuer": "Stepik",
+      "icon": "fa-solid fa-check",
       "url": "https://stepik.org/cert/507997",
       "logo": "/assets/img/stepik-logo.svg"
     },
@@ -114,6 +116,7 @@
       "name": "Машинное обучение и анализ данных",
       "date": "2019-01-01",
       "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
       "url": "https://www.coursera.org/account/accomplishments/specialization/P3J692K2Y3YE",
       "logo": "/assets/img/coursera-logo.svg"
     }
@@ -166,7 +169,7 @@
       "keywords": [
         "Thermoelectricity",
         "Physical Simulations",
-        "Теплофизика"
+        "Thermophysics"
       ]
     }
   ],
@@ -193,11 +196,7 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Quantum Computing"
       ]
     }
   ],
