@@ -33,7 +33,7 @@ toc:
    - [4.2 Понятие композиции обыкновенных производящих функций](/stepik-basics-of-combinatorics/module_4_2-the-concept-of-composition-of-ordinary-generating-functions)
    - [4.3 Разбиение числа на слагаемые. Диаграммная техника](/stepik-basics-of-combinatorics/module_4_3-Breaking-a-number-into-addends-Diagrammatic-technique)
 5. Перечисление помеченных объектов
-   - [5.1 Композиция экспоненциальных производящих функций](/neuro-networks-and-text-treatment/module_4_3-workshop-generating-names-and-slogans-using-RNN/step_2)
+   - [5.1 Композиция экспоненциальных производящих функций](/stepik-basics-of-combinatorics/module_5_1-Composition-of-Exponential-Generating-Functions)
    - [5.2 Комбинаторика перестановок](/)
    - [5.3 Формула Кэли для подсчета всех помеченных деревьев](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
    - [5.4 Перечисление деревьев](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
