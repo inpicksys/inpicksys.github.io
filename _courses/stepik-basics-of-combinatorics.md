@@ -34,6 +34,6 @@ toc:
    - [4.3 Разбиение числа на слагаемые. Диаграммная техника](/stepik-basics-of-combinatorics/module_4_3-Breaking-a-number-into-addends-Diagrammatic-technique)
 5. Перечисление помеченных объектов
    - [5.1 Композиция экспоненциальных производящих функций](/stepik-basics-of-combinatorics/module_5_1-Composition-of-Exponential-Generating-Functions)
-   - [5.2 Комбинаторика перестановок](/)
-   - [5.3 Формула Кэли для подсчета всех помеченных деревьев](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
-   - [5.4 Перечисление деревьев](https://colab.research.google.com/drive/1jEAxhmzkxrGE9K4TSgL7-0D9JYP5pVeJ?usp=sharing)
+   - [5.2 Комбинаторика перестановок](/stepik-basics-of-combinatorics/module_5_2-Combinatorics-of-permutations)
+   - [5.3 Формула Кэли для подсчета всех помеченных деревьев](/stepik-basics-of-combinatorics/module_5_3-Cayleys-formula-for-counting-all-labeled-trees)
+   - [5.4 Перечисление деревьев](/stepik-basics-of-combinatorics/module_5_4-Enumeration-of-trees)
