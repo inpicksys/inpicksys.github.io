@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Публикация курса по Комбинаторике 
-date: 2025-05-22 12:11:00-0400
+date: 2025-05-22
 inline: false
 related_posts: false
 ---
