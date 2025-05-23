@@ -2,7 +2,11 @@
 layout: about
 title: О проекте
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Пишите письма. С любовью. 
+subtitle: <a href='#'>Affiliations</a>. Пишите письма. С любовью.
+  Курсы с решениями задач
+  - [Stepik - Теория вероятностей](/stepik-probability_theory-3089/)
+  - [Stepik - Stepik - Основы перечислительной комбинаторики](/stepik-basics-of-combinatorics/)
+  - [Stepik - Генетика и геномика популяций](/stepik-course-genetics-and-population/)
 
 profile:
   align: right
