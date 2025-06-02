@@ -13,6 +13,15 @@
 {% if site.scholar_userid %}
   <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
 {% endif %}
+{% if site.coursera_id %}
+  <a href="https://www.coursera.org/user/{{ site.coursera_id }}" title="Coursera"><i class="ai ai-coursera"></i></a>
+{% endif %}
+{% if site.udemy_id %}
+  <a href="https://www.udemy.com/user/{{ site.udemy_id }}" title="Udemy"><i class="ai ai-udemy"></i></a>
+{% endif %}
+{% if site.stepik_id %}
+  <a href="https://www.coursera.org/user//{{ site.stepik_id }}" title="Stepik"><i class="ai ai-stepik"></i></a>
+{% endif %}
 {% if site.inspirehep_id %}
   <a href="https://inspirehep.net/authors/{{ site.inspirehep_id }}" title="Inspire HEP"><i class="ai ai-inspire"></i></a>
 {% endif %}

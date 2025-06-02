@@ -105,12 +105,116 @@
       "logo": "/assets/img/logo-udemy.svg"
     },
     {
-      "name": "Основы перечислительной комбинаторики",
-      "date": "2020-08-01",
-      "issuer": "Stepik",
+      "name": "Learn Multithreading and Parallel Programming in C# and .Net",
+      "date": "2025-04-19",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-a9d23b1d-4be0-4222-a507-d1feb84fede1/",
       "icon": "fa-solid fa-check",
-      "url": "https://stepik.org/cert/507997",
-      "logo": "/assets/img/stepik-logo.svg"
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Noob to App Store - iPhone Apps with Swift, SwiftUI & iOS 15",
+      "date": "2025-02-19",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-11a5e2b3-ef64-4e87-b565-e72196eb8324/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "The Complete French Course : Learn French - Beginners",
+      "date": "2025-02-26",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-09e89880-53bc-4ecf-984e-919d675a2ca7/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Introduction to Concurrency in C# - Async and Parallelism",
+      "date": "2023-05-22",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-6ce78cf4-439e-40eb-b139-3c3e252d65d9/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Learn Parallel Programming with C# and .NET",
+      "date": "2023-05-22",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-e66003e4-24ab-4708-8227-a59ebcffcca0/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "React Native - The Practical Guide [2025]",
+      "date": "2024-05-04",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-c962f968-c285-4668-a7a8-95ea39f3ef1d/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "iOS & Swift - The Complete iOS App Development Bootcamp",
+      "date": "2022-02-28",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-fc9d0238-9526-45a3-af13-c9bc46080706/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "React - The Complete Guide 2025 (incl. Next.js, Redux)",
+      "date": "2022-01-06",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-84be9de4-a5c8-4c2c-9ef5-91055480f5ff/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Python for Computer Vision with OpenCV and Deep Learning",
+      "date": "2024-02-18",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-8f24396e-abe5-4fda-b7a4-d6cde4131378/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "AWS Serverless APIs & Apps - A Complete Introduction",
+      "date": "2023-10-02",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-df6db7e8-6b0b-459e-aa90-fe76fc2ded2b/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Deploy and Run Apps with Docker, Kubernetes, Helm, Rancher",
+      "date": "2023-05-16",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-ba166178-5be9-4209-8b93-00c4efa4f0f5/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Vue - The Complete Guide (incl. Router & Composition API)",
+      "date": "2021-04-16",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-d9053dc3-604a-42a8-a739-93816b67f945/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "FFmpeg - The Complete Guide",
+      "date": "2022-04-27",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-d7341093-2827-4dae-8ddd-652ce1fbf891/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
+      "name": "Electron for Desktop Apps: The Complete Developer's Guide",
+      "date": "2020-02-05",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-d7341093-2827-4dae-8ddd-652ce1fbf891/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
     },
     {
       "name": "Машинное обучение и анализ данных",
@@ -119,6 +223,86 @@
       "icon": "fa-solid fa-check",
       "url": "https://www.coursera.org/account/accomplishments/specialization/P3J692K2Y3YE",
       "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Introduction to Thermodynamics: Transferring Energy from Here to There",
+      "date": "2017-04-10",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/700d4765955955b8d3f582e96668b865",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Python for Everybody",
+      "date": "2018-10-05",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/000cab9f718514b020a295e4b33a8c04",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Materials Data Sciences and Informatics",
+      "date": "2019-02-09",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/32652f26fb0541305bc429cce2f2aaea",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Materials Science: 10 Things Every Engineer Should Know",
+      "date": "2019-12-08",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/102c8fc90a6f8cf2af03c555a4521382",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Smart Materials: Microscale and Macroscale Approaches",
+      "date": "2023-09-26",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/84104ff01ec5e6ee9d84440d8a373cd4",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Material Behavior",
+      "date": "2020-03-19",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/ca0bf565b7b78429c681fcc350710f87",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Nanotechnology: A Maker’s Course",
+      "date": "2023-07-03",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/73698feebe4ef35ca8d34ce23bd08a23",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Introduction to High-Throughput Materials Development",
+      "date": "2019-12-05",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/e4759e79b196c256d8f62a8be7e243e6",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "How Things Work: An Introduction to Physics",
+      "date": "2023-05-16",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-check",
+      "url": "https://coursera.org/share/9085910460c1abe257c0da79cd2895e7",
+      "logo": "/assets/img/coursera-logo.svg"
+    },
+    {
+      "name": "Основы перечислительной комбинаторики",
+      "date": "2020-08-01",
+      "issuer": "Stepik",
+      "icon": "fa-solid fa-check",
+      "url": "https://stepik.org/cert/507997",
+      "logo": "/assets/img/stepik-logo.svg"
     }
   ],
   "publications": [

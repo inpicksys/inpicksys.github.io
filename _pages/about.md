@@ -6,9 +6,9 @@ subtitle: <a href='#'>Пишите письма. С любовью.</a>.
   <h4>Курсы с решениями задач</h4>
   <br/>
   <ul>
-    <li> <a href="/stepik-probability_theory-3089/">Stepik - Теория вероятностей</a></li>
-  - <li> <a href="//stepik-basics-of-combinatorics/">Stepik - Stepik - Основы перечислительной комбинаторики</li>
-  - <li> <a href="/stepik-course-genetics-and-population/">[Stepik - Генетика и геномика популяций </li>
+   <li> <a href="/stepik-probability_theory-3089/">Stepik - Теория вероятностей</a></li>
+   <li> <a href="/stepik-basics-of-combinatorics/">Stepik - Основы перечислительной комбинаторики</li>
+   <li> <a href="/stepik-course-genetics-and-population/">Stepik - Генетика и геномика популяций </li>
   </ul>
 profile:
   align: right
