@@ -174,10 +174,14 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@strmisha.s/feed
-  - name: Google Blog
+  - name: Medium
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: https://blog.stackademic.com/iac-basics-deployment-of-rds-using-terraform-and-github-actions-f6df9f3d5886
+        published_date: 2024-05-30
+      - url: https://blog.stackademic.com/effortless-cloud-deployment-launch-net-6b454fca5ac1
+        published_date: 2024-06-18
+      - url: https://blog.stackademic.com/frontend-deployment-to-aws-b03beb4316c9
+        published_date: 2024-07-10
 
 # -----------------------------------------------------------------------------
 # Collections

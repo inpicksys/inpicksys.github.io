@@ -89,6 +89,14 @@
   ],
   "certificates": [
     {
+      "name": "AWS Serverless APIs & Apps - A Complete Introduction",
+      "date": "2023-10-02",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-df6db7e8-6b0b-459e-aa90-fe76fc2ded2b/",
+      "icon": "fa-solid fa-check",
+      "logo": "/assets/img/logo-udemy.svg"
+    },
+    {
       "name": "WebRTC - Create Zoom Clone Video Group Call Application",
       "date": "2024-09-101",
       "issuer": "Udemy",
