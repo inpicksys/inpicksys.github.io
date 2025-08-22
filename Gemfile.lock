@@ -330,7 +330,6 @@ GEM
     unicode_utils (1.4.0)
     uri (1.0.3)
     verbal_expressions (0.1.5)
-    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -368,7 +367,6 @@ DEPENDENCIES
   jekyll-twitter-plugin
   jemoji
   unicode_utils
-  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH
