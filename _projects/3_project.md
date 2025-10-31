@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Compare Yourself
+description: Demo aws lambda project
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://compare-yourself.saltpound.com
 importance: 3
 category: work
 ---

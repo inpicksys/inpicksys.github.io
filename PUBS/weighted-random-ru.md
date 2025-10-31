@@ -84,7 +84,7 @@ Create an ASP.NET Core project with a Web API controller that can select a winne
 
 
 
-простейший пример - это рулетка
+Простейший пример - это рулетка
 
 ```python
 import random
@@ -106,3 +106,7 @@ print("Selected:", selected)
 ```
 
 (Q/(pi*R^2))*(sqrt(H^2)/sqrt(H^2+R^2)-1)
+
+Ссылки
+
+1. -  [Fast weighted random selection - tutorial & code](https://discussions.unity.com/t/fast-weighted-random-selection-tutorial-code/950094/2)
