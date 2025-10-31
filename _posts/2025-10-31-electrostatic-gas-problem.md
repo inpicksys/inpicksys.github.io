@@ -7,7 +7,6 @@ tags: coursera электромагентизм physics
 categories: coursera электромагентизм physics
 related_posts: false
 giscus_comments: true
-math: true
 toc:
   sidebar: right
 ---
