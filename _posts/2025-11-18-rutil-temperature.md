@@ -4,11 +4,10 @@ title: "Почему для восстановления рутила водор
 date: 2025-11-18 14:00:00
 description: "Stepik. Неорганическая химия: введение в химию элементов. Восстановление минерала рутила."
 tags: [титан, термодинамика, диаграмма-эллингема, металлургия, stepik]  
-categories: [stepik, chemistry, thermodynamics, закрывая гештальты]
+categories: [stepik, chemistry, thermodynamics, "закрывая гештальты"]
 image: /assets/img/ellingham-ti-h2.png
 related_posts: false
 giscus_comments: true
-author: saltpound
 toc:
   sidebar: right
 ---
