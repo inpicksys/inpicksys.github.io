@@ -199,6 +199,8 @@ collections:
   courses:
     output: true
     permalink: /courses/:path/
+  docs:
+    output: false
 
 announcements:
   enabled: true
