@@ -5,7 +5,7 @@ permalink: /teaching/
 description: Решение задач из курсов
 nav: true
 nav_order: 2
-display_categories: [stepik]
+display_categories: [stepik, coursera]
 horizontal: false
 ---
 
