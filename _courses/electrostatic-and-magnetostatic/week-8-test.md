@@ -3,7 +3,7 @@ permalink: "/coursera-electrostatic-and-magnetostatic/week-8-test"
 layout: post
 title: "Магнитное поле в вакууме"
 description: Электростатика и магнетостатика
-category: ["Электростатика", "Физика", "Coursera"]
+category: ["Электростатика", "Физика", "Coursera", coursera]
 importance: 1
 giscus_comments: true
 toc:
