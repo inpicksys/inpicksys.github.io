@@ -303,18 +303,26 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled:
-    - year
-    - tags
-    - categories  # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+  posts:
+    enabled:
+      - year
+      - tags
+      - categories
+    layouts:
+      year: archive-year
+      tag: archive-tag
+      category: archive-category
+    permalinks:
+      year: "/blog/:year/"
+      tag: "/blog/tag/:name/"
+      category: "/blog/category/:name/"
+  notes:
+    enabled:
+      - year
+    layouts:
+      year: archive-year
+    permalinks:
+      year: "/notes/:year/"
 
 display_tags: ["probability", "stepik"] # these tags will be displayed on the front page of your blog
 display_categories: ["courses"] # these categories will be displayed on the front page of your blog
