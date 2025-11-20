@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "Почему для восстановления рутила водородом нужна температура 4700 K",
         
-        description: "Stepik. Неорганическая химия: введение в химию элементов. Восстановление минерала рутила.",
+        description: "Stepik. Неорганическая химия: введение в химию элементов. Восстановление минерала рутила",
         section: "Posts",
         handler: () => {
           
@@ -557,13 +557,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
