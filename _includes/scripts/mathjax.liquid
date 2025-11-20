@@ -4,8 +4,23 @@
     <script type="text/javascript">
       window.MathJax = {
         tex: {
-          tags: 'ams',
+          inlineMath: [['\\(','\\)'], ['$', '$']],
+          displayMath: [['\\[','\\]'], ['$$','$$']],
+          processEscapes: true,
+          tags: 'ams',  // чтобы были уравнения с номерами \begin{equation}
+          macros: {
+            // свои сокращения как на arXiv
+            RR: '{\\mathbb{R}}',
+            NN: '{\\mathbb{N}}',
+            QQ: '{\\mathbb{Q}}',
+            ZZ: '{\\mathbb{Z}}',
+            dd: '{\\mathrm{d}}',
+            e: '{\\mathrm{e}}'
+          }
         },
+        svg: {
+          fontCache: 'global'
+        }
       };
     </script>
     <script
