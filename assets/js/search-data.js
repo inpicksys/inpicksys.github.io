@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-о-проекте",
-    title: "О проекте",
+    id: "nav-дом",
+    title: "Дом",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
+        },{id: "nav-репозитории",
+          title: "Репозитории",
           description: "Public Repositories. Will be updated soon",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "cv",
+        },{id: "nav-резюме",
+          title: "Резюме",
           description: "M. Strutinsky CV",
           section: "Navigation",
           handler: () => {
@@ -535,13 +535,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/Mikhail_Strutinsky_-_Senior_Fullstack_Developer_latest.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
