@@ -1,6 +1,6 @@
 ---
 layout: about
-title: О проекте
+title: Дом
 permalink: /
 subtitle: <a href='#'>Пишите письма. С любовью.</a>. 
   <h4>Курсы с решениями задач</h4>

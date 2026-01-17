@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
+title: Репозитории
 description: Public Repositories. Will be updated soon
 nav: true
 nav_order: 4
