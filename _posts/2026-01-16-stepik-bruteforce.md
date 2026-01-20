@@ -8,7 +8,7 @@ categories: ["stepik", "закрывая гештальты"]
 image: /assets/img/stepik-solve.png
 related_posts: false
 giscus_comments: true
-full_width: true
+classes: justified
 toc:
   sidebar: right
 ---

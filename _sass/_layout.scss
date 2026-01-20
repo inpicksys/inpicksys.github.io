@@ -38,6 +38,23 @@ body.sticky-bottom-footer {
   }
 }
 
+.post-content,
+.page-content {
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.7;
+    hyphens: auto;
+
+    margin-bottom: 0;
+    text-indent: 1.5em;
+  }
+
+  p + p {
+    margin-top: 0.8em;
+  }
+}
+
 // TODO: redefine content layout.
 
 /******************************************************************************
