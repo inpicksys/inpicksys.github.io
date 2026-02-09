@@ -62,7 +62,7 @@ Create an ASP.NET Core project with a Web API controller that can select a winne
 
 Этот алгоритм часто используется для в вычислениях так и в обработке и генерации данных. Некоторые области использования этого алгоритма:
 
-- **Имитационное моделирование** - методы имитационного моделирования [ссылка Лоу "Имитационное моделирование"]
+- **Имитационное моделирование** - методы имитационного моделирования [ссылка Лоу "Имитационное моделирование"] от моделирования работы предприятий, фабрик включая работу станков и людей, и заканчивая классиечскими задачами типа "хищник"-"жертва" Вольтерра Лотки и игрой "Жизнь".
 - **Методы Монте-Карло**, <примеры>
 - **Компьютерное моделирование**: экономических, физических, социальных систем, к примеру, <примеры>
 - **Рандомизированный выбор**: выбор элемента с различной вероятностью, например, выбор объявления для показа в онлайн-рекламе, где объявления с разным рейтингом кликов имеют разный вес.
@@ -105,8 +105,17 @@ selected = roulette_wheel_selection(population, fitness)
 print("Selected:", selected)
 ```
 
-(Q/(pi*R^2))*(sqrt(H^2)/sqrt(H^2+R^2)-1)
 
 Ссылки
 
 1. -  [Fast weighted random selection - tutorial & code](https://discussions.unity.com/t/fast-weighted-random-selection-tutorial-code/950094/2)
+2. https://github.com/joseftw/jos.weightedresult
+3. https://github.com/cdanek/KaimiraWeightedList
+4. https://en.wikipedia.org/wiki/Alias_method
+5. https://www.keithschwarz.com/darts-dice-coins/
+6. https://www.keithschwarz.com/interesting/code/?dir=alias-method
+7. https://en.wikipedia.org/wiki/Fitness_proportionate_selection [Roulette selection]
+8. https://en.wikipedia.org/wiki/Stochastic_universal_sampling
+9. https://en.wikipedia.org/wiki/Reward-based_selection
+10. https://en.wikipedia.org/wiki/Tournament_selection
+11. https://en.wikipedia.org/wiki/Selection_(evolutionary_algorithm)

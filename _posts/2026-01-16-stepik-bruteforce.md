@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Автоматизация обучения на Stepik с помощью Playwright"
-date: 2025-11-18 14:00:00
+date: 2026-01-18 14:00:00
 description: "Stepik и playwright"
 tags: ["stepik", "playwright", "автоматизация"]
 categories: ["stepik", "закрывая гештальты"]
 image: /assets/img/stepik-solve.png
 related_posts: false
-giscus_comments: true
+discus_comments: true
 classes: justified
 toc:
   sidebar: right
@@ -104,7 +104,9 @@ if __name__ == "__main__":
 
 ```json
 {
-  "email": youremail@email.com,
-  "password": password
+  "email": "youremail@email.com",
+  "password": "password"
 }
 ```
+
+> P.S. Продолжение следует...
