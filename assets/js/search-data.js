@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-автоматизация-обучения-на-stepik-с-помощью-playwright",
+        },{id: "post-stepik-500",
+        
+          title: "Stepik - 500",
+        
+        description: "Stepik и любовь к баллам",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/stepik-500-days/";
+          
+        },
+      },{id: "post-автоматизация-обучения-на-stepik-с-помощью-playwright",
         
           title: "Автоматизация обучения на Stepik с помощью Playwright",
         
@@ -59,7 +70,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/stepik-bruteforce/";
+            window.location.href = "/blog/2026/stepik-bruteforce/";
           
         },
       },{id: "post-почему-для-восстановления-рутила-водородом-нужна-температура-4700-k",
