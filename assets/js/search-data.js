@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-stepik-500",
+        },{id: "post-зависимости-внедрение-зависимостей-и-сквозная-функциональность-в-современной-разработке",
+        
+          title: "Зависимости, внедрение зависимостей и сквозная функциональность в современной разработке",
+        
+        description: "Stepik и любовь к баллам",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/di-aop-part-1/";
+          
+        },
+      },{id: "post-stepik-500",
         
           title: "Stepik - 500",
         
