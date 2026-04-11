@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Законы масштабирования Уэста: почему города растут, а Бразилиа — нет""
+title: "Законы масштабирования Уэста: почему города растут, а Бразилиа — нет"
 date: 2026-04-11 01:00:00
 description: "Законы масштабирования"
 tags: [dependency-injection, ioc, aop, middleware, ai, cloud, ui-first]
