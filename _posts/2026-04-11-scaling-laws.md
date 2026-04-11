@@ -9,6 +9,8 @@ thumbnail: /assets/img/di-aop-banner.png
 related_posts: false
 giscus_comments: true
 classes: justified
+chart:
+  chartjs: true
 toc:
   sidebar: right
 
