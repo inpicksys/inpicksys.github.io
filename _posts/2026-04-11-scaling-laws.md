@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Законы масштабирования Уэста: почему города растут, а Бразилиа — нет"
+title: "Законы масштабирования"
 date: 2026-04-11 01:00:00
-description: "Законы масштабирования"
+description: "Законы масштабирования Уэста: почему города растут, а Бразилиа — нет"
 tags: [dependency-injection, ioc, aop, middleware, ai, cloud, ui-first]
 categories: [architecture, dotnet, patterns, "закрывая гештальты"]
-thumbnail: /assets/img/di-aop-banner.png
+thumbnail: /assets/img/brasilia-plan.jpg
 related_posts: false
 giscus_comments: true
 classes: justified
